@@ -1,19 +1,7 @@
-2019-05-29 18:08:35 ERROR (SyncWorker_0) [homeassistant.util.yaml] YAML file /config/configuration.yaml contains duplicate key "tts". Check lines 30 and 54.
-2019-05-29 18:08:40 ERROR (MainThread) [homeassistant.components.device_tracker] Unable to load /config/known_devices.yaml: Config file not found: /config/known_devices.yaml
-2019-05-29 19:08:38 ERROR (MainThread) [homeassistant.components.updater] Got unexpected response: None
-2019-05-30 01:09:21 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 15 minutes: Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Try again]
-2019-05-30 01:24:27 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 16 minutes: Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Try again]
-2019-05-30 01:40:33 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 16 minutes: Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Try again]
-2019-05-30 01:56:39 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 19 minutes: Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Try again]
-2019-05-30 05:15:59 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 19 minutes: Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Try again]
-2019-05-30 05:35:05 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 20 minutes: Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Try again]
-2019-05-30 05:55:11 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 19 minutes: Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Try again]
-2019-05-30 06:14:17 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 20 minutes: Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Try again]
-2019-05-30 06:34:23 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 17 minutes: Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Try again]
-2019-05-30 06:51:29 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 17 minutes: Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Try again]
-2019-05-30 07:08:35 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 20 minutes: Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Try again]
-2019-05-30 07:28:41 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 15 minutes: Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Try again]
-2019-05-30 07:43:43 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 19 minutes: https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/1.9/?lat=-6.1741&lon=106.8296&msl=0 returned 503
-2019-05-30 19:08:39 ERROR (MainThread) [homeassistant.components.updater] Got unexpected response: None
-2019-05-30 21:03:45 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 16 minutes: Cannot connect to host aa015h6buqvih86i1.api.met.no:443 ssl:None [Try again]
-2019-05-31 19:08:38 ERROR (MainThread) [homeassistant.components.updater] Got unexpected response: None
+2019-06-01 10:57:28 ERROR (SyncWorker_0) [homeassistant.util.yaml] YAML file /config/configuration.yaml contains duplicate key "tts". Check lines 30 and 63.
+2019-06-01 10:57:34 ERROR (MainThread) [homeassistant.components.device_tracker] Unable to load /config/known_devices.yaml: Config file not found: /config/known_devices.yaml
+2019-06-01 11:57:31 ERROR (MainThread) [homeassistant.components.updater] Got unexpected response: None
+2019-06-01 12:01:13 ERROR (MainThread) [frontend.js.latest.201905140] http://192.168.1.33:8123/frontend_latest/app.a259a502.js:2:59245 Uncaught TypeError: Cannot convert undefined or null to object
+2019-06-01 12:01:15 ERROR (MainThread) [frontend.js.latest.201905140] http://192.168.1.33:8123/frontend_latest/app.a259a502.js:2:59245 Uncaught TypeError: Cannot convert undefined or null to object
+2019-06-01 12:08:38 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 127.0.0.1
+2019-06-01 12:08:45 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 127.0.0.1

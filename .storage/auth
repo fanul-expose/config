@@ -34,7 +34,7 @@
                 "created_at": "2019-05-28T12:39:06.302760+00:00",
                 "id": "0e8e001df68e4b2f8dfabded6fc7c8b1",
                 "jwt_key": "054c6cf4bff22e2a1c37c889860e75a5aee51e2c9c5eb4f4774ab4bd2af17567dc0cb2bfc2ce5f7282a021628bc26068aeee73f40025e706af5084d7e2da603a",
-                "last_used_at": "2019-06-01T10:27:03.662335+00:00",
+                "last_used_at": "2019-06-01T14:07:53.332772+00:00",
                 "last_used_ip": "172.30.32.2",
                 "token": "b94114b86a289990dae58153fd48329198666e67e29aba2da883bab24a1aa82a956ab002b80aed65038bc635e5398f27ab65e9329b39c3280839175351e7b9b0",
                 "token_type": "system",
@@ -48,7 +48,7 @@
                 "created_at": "2019-05-28T12:54:44.197968+00:00",
                 "id": "04fb8fe4d37f422ab4154380b0ab1573",
                 "jwt_key": "a4cc27ac2ffb7cf85c7860b3f71088bb3b34782af42aa3800d0bf958804c138302c403fe6463d31bf15b8f407008c98b969599657b3b191baff0bf8a86a72837",
-                "last_used_at": "2019-06-01T10:21:54.813834+00:00",
+                "last_used_at": "2019-06-01T14:08:28.605484+00:00",
                 "last_used_ip": "192.168.1.190",
                 "token": "99d9b7405c0dabf3511fdfbbc600df8c58721f0f72239e041e94a0164ca54e09ad808aaff48275fe28b1b0e64db47f90ae2d49e963bc42c293ea2ec097dc55d4",
                 "token_type": "normal",
@@ -79,6 +79,20 @@
                 "last_used_at": "2019-05-29T17:38:08.173273+00:00",
                 "last_used_ip": "127.0.0.1",
                 "token": "fb53819422845cdcd816a9346ec34fa3188b6ab6082c7f71e21042a9401e6f9dd2f959b85767098bda518266eee51732993438cae8d6921767e8286ef81b9f24",
+                "token_type": "normal",
+                "user_id": "10fce46ca9f846dab207792898378c9b"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://fanul.serveo.net/",
+                "client_name": null,
+                "created_at": "2019-06-01T12:08:57.625415+00:00",
+                "id": "e56439834c6d4671a4ca9947bbdbd090",
+                "jwt_key": "e9448075687f06f02d16a87c6d566b6092cf67adccc80d5b9b47d0245a24dce951a17feea143dfc447e25096f7701fcfb9ae2aef49b6bea94aa96481c451811c",
+                "last_used_at": "2019-06-01T12:08:57.625682+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "282fb494a191125ed3876bcfd533262cdc37d3d32d143e6c9762179e123e9902723484ff789db9687cfacc5daf76c1a350a9f941a88daca5cf177179ad069860",
                 "token_type": "normal",
                 "user_id": "10fce46ca9f846dab207792898378c9b"
             }

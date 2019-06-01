@@ -1,6 +1,6 @@
 homeassistant:
   # Name of the location where Home Assistant is running
-  name: Hakim Palace
+  name: Home
   # Location required to calculate the time the sun rises and sets
   latitude: -6.1741
   longitude: 106.8296
@@ -35,14 +35,14 @@ tts:
 #xiaomi -==-==-==-
 xiaomi_aqara:
   gateways:
-  - mac: 7c:49:eb:1b:9c:00  
-    key: cud4g6bdmu7aadrg
+  - mac: !secret xiaomi_aqara_mac1 
+    key: !secret xiaomi_aqara_mac1_key
     
 remote:
   - platform: xiaomi_miio
     name: "remote universal"
-    host: 192.168.1.16
-    token: c04af39d45ee69b633721d6d8063eb21
+    host: !secret xiaomi_ir_remote1_ip
+    token: !secret xiaomi_ir_remote1_token
     slot: 1
     timeout: 30
     hidden: false
@@ -64,7 +64,40 @@ sensor:
 tts:
   - platform: google_translate
 
+#Media Player -==-==-==-
+media_player:
+
+  - platform: kodi
+    host: 192.168.1.11
+    username: fanul
+    password: hakimpalace100
+
+  - platform: plex
+    entity_namespace: 'plex'
+    include_non_clients: false
+    scan_interval: 5
+    show_all_controls: true
+    use_custom_entity_ids: true
+    use_episode_art: true
+    remove_unavailable_clients: true
+    client_remove_interval: 600
+
+#Google Assistant -==-==-==-
+google_assistant:
+  project_id: hakim-palace-11235813
+  api_key: AIzaSyCorIacl3MqQIjxB4ZRp6efByZa7_TEyp0
+  exposed_domains:
+    - light
+    - script
+    - remote
+    - media_player
+
+#Google Home -==-==-==-
+googlehome:
+  devices:
+    - host: 192.168.1.15
+
+panel_iframe: !include panel_iframe.yaml
 group: !include groups.yaml
 automation: !include automations.yaml
 script: !include scripts.yaml
-panel_iframe: !include panel_iframe.yaml

@@ -3,13 +3,8 @@
         title: Grocy
         icon: mdi:fridge-outline
         url: http://192.168.1.33:9192
-
+    
     tasmoadmin:
         title: TasmoAdmin
         icon: mdi:lightbulb-on
         url: http://192.168.1.33:9541
-        
-    IDE9:
-        title: IDE9
-        icon: mdi:keyboard-outline
-        url: http://192.168.1331:8321

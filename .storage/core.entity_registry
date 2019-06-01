@@ -72,6 +72,24 @@
                 "name": null,
                 "platform": "plex",
                 "unique_id": "olq3r0fmfzd1zpt4yhnih9bx"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "remote.remote_universal",
+                "name": null,
+                "platform": "xiaomi_miio",
+                "unique_id": "chuangmi.ir.v2-7C:49:EB:25:4B:B0"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.plex_plex_28905c44_a432_427e_9e95_5918a29bfcb7",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "28905c44-a432-427e-9e95-5918a29bfcb7"
             }
         ]
     },
