@@ -1,0 +1,121 @@
+{
+    "data": {
+        "credentials": [
+            {
+                "auth_provider_id": null,
+                "auth_provider_type": "homeassistant",
+                "data": {
+                    "username": "fanul"
+                },
+                "id": "977cda3318fc4e4fbf8d1ac34074c437",
+                "user_id": "10fce46ca9f846dab207792898378c9b"
+            }
+        ],
+        "groups": [
+            {
+                "id": "system-admin",
+                "name": "Administrators"
+            },
+            {
+                "id": "system-users",
+                "name": "Users"
+            },
+            {
+                "id": "system-read-only",
+                "name": "Read Only"
+            }
+        ],
+        "refresh_tokens": [
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": null,
+                "client_name": null,
+                "created_at": "2019-05-28T12:39:06.302760+00:00",
+                "id": "0e8e001df68e4b2f8dfabded6fc7c8b1",
+                "jwt_key": "054c6cf4bff22e2a1c37c889860e75a5aee51e2c9c5eb4f4774ab4bd2af17567dc0cb2bfc2ce5f7282a021628bc26068aeee73f40025e706af5084d7e2da603a",
+                "last_used_at": "2019-06-01T10:27:03.662335+00:00",
+                "last_used_ip": "172.30.32.2",
+                "token": "b94114b86a289990dae58153fd48329198666e67e29aba2da883bab24a1aa82a956ab002b80aed65038bc635e5398f27ab65e9329b39c3280839175351e7b9b0",
+                "token_type": "system",
+                "user_id": "52501df4737648c48dac22dabc353fec"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.1.33:8123/",
+                "client_name": null,
+                "created_at": "2019-05-28T12:54:44.197968+00:00",
+                "id": "04fb8fe4d37f422ab4154380b0ab1573",
+                "jwt_key": "a4cc27ac2ffb7cf85c7860b3f71088bb3b34782af42aa3800d0bf958804c138302c403fe6463d31bf15b8f407008c98b969599657b3b191baff0bf8a86a72837",
+                "last_used_at": "2019-06-01T10:21:54.813834+00:00",
+                "last_used_ip": "192.168.1.190",
+                "token": "99d9b7405c0dabf3511fdfbbc600df8c58721f0f72239e041e94a0164ca54e09ad808aaff48275fe28b1b0e64db47f90ae2d49e963bc42c293ea2ec097dc55d4",
+                "token_type": "normal",
+                "user_id": "10fce46ca9f846dab207792898378c9b"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://192.168.1.33:8123/",
+                "client_name": null,
+                "created_at": "2019-05-29T17:21:50.611496+00:00",
+                "id": "84ed512e554c412fbd8434d6bf743beb",
+                "jwt_key": "3dc989b287944c726f247101cdbbc8d6225a9cc0e5a92b149c5c2d7fd8afb4acfc8a1ef41f9d80517b7d86b6a63c70d71fef23518038443813bedb3c7c2196b4",
+                "last_used_at": "2019-05-30T04:44:26.416853+00:00",
+                "last_used_ip": "192.168.1.190",
+                "token": "8cabc5e6c557841169835dd5f83df8e3b432afd67e1c79385588ee3c30d9b0d61fc6e4fd77f4aa5ceff5f1f9e258c45136e7d407362eede38c916896b02ea376",
+                "token_type": "normal",
+                "user_id": "10fce46ca9f846dab207792898378c9b"
+            },
+            {
+                "access_token_expiration": 1800.0,
+                "client_icon": null,
+                "client_id": "http://fanul.serveo.net/",
+                "client_name": null,
+                "created_at": "2019-05-29T17:38:08.173029+00:00",
+                "id": "a06f3bd205764f639015d76adcbf2195",
+                "jwt_key": "e9df56d338effb0587208cd24d1042f9248bfbac414ad04619c70bc439428937a5af85b4aed917e2257eaff4f9e004e82181a290c9c8309fdeaf13aeb361b58e",
+                "last_used_at": "2019-05-29T17:38:08.173273+00:00",
+                "last_used_ip": "127.0.0.1",
+                "token": "fb53819422845cdcd816a9346ec34fa3188b6ab6082c7f71e21042a9401e6f9dd2f959b85767098bda518266eee51732993438cae8d6921767e8286ef81b9f24",
+                "token_type": "normal",
+                "user_id": "10fce46ca9f846dab207792898378c9b"
+            }
+        ],
+        "users": [
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "42f976c2ef16447abb4434d977c0c132",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Home Assistant Cloud",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "52501df4737648c48dac22dabc353fec",
+                "is_active": true,
+                "is_owner": false,
+                "name": "Hass.io",
+                "system_generated": true
+            },
+            {
+                "group_ids": [
+                    "system-admin"
+                ],
+                "id": "10fce46ca9f846dab207792898378c9b",
+                "is_active": true,
+                "is_owner": true,
+                "name": "fanul",
+                "system_generated": false
+            }
+        ]
+    },
+    "key": "auth",
+    "version": 1
+}

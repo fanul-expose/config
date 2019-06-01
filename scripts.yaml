@@ -1,0 +1,51 @@
+
+swing_kipas:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6WPAHkBAADGAQAAywQAABcFAABWIQAA7SEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASEjASEjAwMDAwElASEjASEjAwMDAwEkASEjASEjAwMDAwElASEjASEjAwMDAwEkASEjASEjAwMDAwElASEjASEjAwMDAwEgA=
+
+speed_kipas:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6XvAHoBAADEAQAAzQQAABUFAABHIQAA6yEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASEjASEhIwMDASElASEjASEhIwMDASEkASEjASEhIwMDASElASEjASEhIwMDASEkASEjASEhIwMDASElASEjASEhIwMDASEkASEjASEhIwMDASElASEjASEhIwMDASEkASEjASEhIwMDASElASEjASEhIwMDASEgA=
+
+on_off_kipas:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6WPAHkBAADFAQAAywQAABYFAABIIQAA6SEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASEjASEjASMDAwMFASEjASEjASMDAwMEASEjASEjASMDAwMFASEjASEjASMDAwMEASEjASEjASMDAwMFASEjASEjASMDAwMAA=
+
+on_off_tv:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VHABUCAABLAgAAqwYAANMIAACVEQAAJSMAAKScAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFEBAgEBAQEBAgIBAgICAgIBAQECAQEBAQICAgECAgICBgNQA=
+
+volume_down_tv:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VHACcCAACpBgAA1AgAAJQRAAAmIwAApJwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAQAAAAAAAQEAAQEBAQEBAQAAAAAAAAAAAQEBAQEBBQJAA=
+
+volume_up_tv:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VHABUCAABMAgAAqwYAANQIAACUEQAAJCMAAKScAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFEBAgEBAQEBAgIBAgICAgIBAgEBAQEBAQIBAgICAgICBgNQA=
+
+
+

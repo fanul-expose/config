@@ -1,0 +1,80 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.kodi_retropie_local",
+                "name": null,
+                "platform": "kodi",
+                "unique_id": "eb2e4030-ccf1-409c-a443-b5050e4b97c3"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.kodiretropie",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "dcbeab54-dd9a-4d2d-bf66-1694ab747ee2"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.illumination_7c49eb1b9c00",
+                "name": null,
+                "platform": "xiaomi_aqara",
+                "unique_id": "illumination7c49eb1b9c00"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "light.gateway_light_7c49eb1b9c00",
+                "name": null,
+                "platform": "xiaomi_aqara",
+                "unique_id": "rgb7c49eb1b9c00"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.opera",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "gbigvhkxqal8doxosrrc6usk"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.fanul",
+                "name": null,
+                "platform": "person",
+                "unique_id": "13c2bc5d930244389302d100f29811a7"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.chrome",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "ad9ecm4lra7x9vbpjm0zlht7"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.chrome_2",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "olq3r0fmfzd1zpt4yhnih9bx"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

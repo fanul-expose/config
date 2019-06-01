@@ -1,0 +1,45 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-06-01T10:27:47.005895+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "fanul",
+                    "id": "13c2bc5d930244389302d100f29811a7",
+                    "user_id": "10fce46ca9f846dab207792898378c9b"
+                },
+                "context": {
+                    "id": "983175575fe54c32bb2ff5d7961017e0",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.fanul",
+                "last_changed": "2019-05-29T18:08:43.077055+00:00",
+                "last_updated": "2019-05-29T18:08:45.204575+00:00",
+                "state": "unknown"
+            }
+        },
+        {
+            "last_seen": "2019-06-01T10:27:47.005895+00:00",
+            "state": {
+                "attributes": {
+                    "friendly_name": "Fast.com Download",
+                    "icon": "mdi:speedometer",
+                    "unit_of_measurement": "Mbit/s"
+                },
+                "context": {
+                    "id": "d685ec1de9fc4801a1739571d0e37198",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "sensor.fast_com_download",
+                "last_changed": "2019-05-29T18:08:45.187278+00:00",
+                "last_updated": "2019-05-29T18:08:45.187278+00:00",
+                "state": "unknown"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}
