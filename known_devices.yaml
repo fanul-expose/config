@@ -54,3 +54,27 @@
   name: 192 168 1 15 05 51 4b 42 70 80
   picture:
   track: true
+
+192_168_1_15_71_e5_04_b2_7f_0a:
+  hide_if_away: false
+  icon:
+  mac:
+  name: 192 168 1 15 71 e5 04 b2 7f 0a
+  picture:
+  track: true
+
+192_168_1_15_f4_f5_db_60_d4_77:
+  hide_if_away: false
+  icon:
+  mac:
+  name: 192 168 1 15 f4 f5 db 60 d4 77
+  picture:
+  track: true
+
+192_168_1_15_4b_b0_fa_bf_d8_6d:
+  hide_if_away: false
+  icon:
+  mac:
+  name: 192 168 1 15 4b b0 fa bf d8 6d
+  picture:
+  track: true

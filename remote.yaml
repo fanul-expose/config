@@ -1,0 +1,8 @@
+
+  - platform: xiaomi_miio
+    name: "remote universal"
+    host: !secret xiaomi_ir_remote1_ip
+    token: !secret xiaomi_ir_remote1_token
+    slot: 1
+    timeout: 30
+    hidden: false

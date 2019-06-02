@@ -1,0 +1,15 @@
+
+  project_id: hakim-palace-11235813
+  api_key: AIzaSyCorIacl3MqQIjxB4ZRp6efByZa7_TEyp0
+  exposed_domains:
+    - group
+    - input_boolean
+    - scene
+    - script
+    - switch
+    - fan
+    - light
+    - cover
+    - media_player
+    - climate
+    - camera

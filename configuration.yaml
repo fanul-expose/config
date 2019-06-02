@@ -13,19 +13,26 @@ homeassistant:
   # Customization file
   customize: !include customize.yaml
 
-  #auth-TOKEN-X
-  auth_providers:
-    - type: homeassistant
-
-# Configure a default setup of Home Assistant (frontend, api, etc)
-default_config:
+# Text to speech
+tts:
+  - platform: google_translate
 
 # websocket api
 websocket_api:
 
+  #auth-TOKEN-X
+  auth_providers:
+    - type: homeassistant
+
 fastdotcom:
   scan_interval:
     minutes: 120
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+
+
 
 # Text to speech
 tts:
@@ -33,70 +40,20 @@ tts:
     service_name: google_say
 
 #xiaomi -==-==-==-
-xiaomi_aqara:
-  gateways:
-  - mac: !secret xiaomi_aqara_mac1 
-    key: !secret xiaomi_aqara_mac1_key
-    
-remote:
-  - platform: xiaomi_miio
-    name: "remote universal"
-    host: !secret xiaomi_ir_remote1_ip
-    token: !secret xiaomi_ir_remote1_token
-    slot: 1
-    timeout: 30
-    hidden: false
 
 
-# Uncomment this if you are using SSL/TLS, running in Docker container, etc.
-# http:
-#   base_url: example.duckdns.org:8123
 
 # Discover some devices automatically
 #discovery:
 
-# Sensors
-sensor:
-  # Weather prediction
-  - platform: yr
+# ==== # ==== # ~ BELOW IS A PARTIAL CONFIGURATION OF EACH ENTITY ~ # ==== # ==== #
 
-# Text to speech
-tts:
-  - platform: google_translate
-
-#Media Player -==-==-==-
-media_player:
-
-  - platform: kodi
-    host: 192.168.1.11
-    username: fanul
-    password: hakimpalace100
-
-  - platform: plex
-    entity_namespace: 'plex'
-    include_non_clients: false
-    scan_interval: 5
-    show_all_controls: true
-    use_custom_entity_ids: true
-    use_episode_art: true
-    remove_unavailable_clients: true
-    client_remove_interval: 600
-
-#Google Assistant -==-==-==-
-google_assistant:
-  project_id: hakim-palace-11235813
-  api_key: AIzaSyCorIacl3MqQIjxB4ZRp6efByZa7_TEyp0
-  exposed_domains:
-    - light
-    - script
-    - remote
-    - media_player
-
-#Google Home -==-==-==-
-googlehome:
-  devices:
-    - host: 192.168.1.15
-
+xiaomi_aqara: !include xiaomi_aqara.yaml
+remote: !include remote.yaml
+sensor: !include sensor.yaml
+media_player: !include media_player.yaml
+google_assistant: !include google_assistant.yaml
+googlehome: !include googlehome.yaml
 panel_iframe: !include panel_iframe.yaml
 group: !include groups.yaml
 automation: !include automations.yaml

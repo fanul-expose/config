@@ -1,7 +1,14 @@
-2019-06-01 10:57:28 ERROR (SyncWorker_0) [homeassistant.util.yaml] YAML file /config/configuration.yaml contains duplicate key "tts". Check lines 30 and 63.
-2019-06-01 10:57:34 ERROR (MainThread) [homeassistant.components.device_tracker] Unable to load /config/known_devices.yaml: Config file not found: /config/known_devices.yaml
-2019-06-01 11:57:31 ERROR (MainThread) [homeassistant.components.updater] Got unexpected response: None
-2019-06-01 12:01:13 ERROR (MainThread) [frontend.js.latest.201905140] http://192.168.1.33:8123/frontend_latest/app.a259a502.js:2:59245 Uncaught TypeError: Cannot convert undefined or null to object
-2019-06-01 12:01:15 ERROR (MainThread) [frontend.js.latest.201905140] http://192.168.1.33:8123/frontend_latest/app.a259a502.js:2:59245 Uncaught TypeError: Cannot convert undefined or null to object
-2019-06-01 12:08:38 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 127.0.0.1
-2019-06-01 12:08:45 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 127.0.0.1
+2019-06-02 02:05:42 ERROR (SyncWorker_0) [homeassistant.util.yaml] YAML file /config/configuration.yaml contains duplicate key "tts". Check lines 16 and 37.
+2019-06-02 02:05:55 ERROR (MainThread) [miio.device] Unable to discover a device at address 192.168.1.16
+2019-06-02 02:05:55 ERROR (MainThread) [homeassistant.components.xiaomi_miio.remote] Device unavailable or token incorrect: Unable to discover the device 192.168.1.16
+2019-06-02 02:05:55 WARNING (MainThread) [homeassistant.setup] Setup of xiaomi_aqara is taking over 10 seconds.
+2019-06-02 02:05:55 WARNING (MainThread) [homeassistant.setup] Setup of person is taking over 10 seconds.
+2019-06-02 02:05:56 WARNING (MainThread) [homeassistant.components.remote] Platform xiaomi_miio not ready yet. Retrying in 30 seconds.
+2019-06-02 02:05:57 WARNING (MainThread) [homeassistant.components.sensor] Setup of platform yr is taking over 10 seconds.
+2019-06-02 02:05:57 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 15 minutes: 
+2019-06-02 02:06:32 ERROR (MainThread) [miio.device] Unable to discover a device at address 192.168.1.16
+2019-06-02 02:06:32 ERROR (MainThread) [homeassistant.components.xiaomi_miio.remote] Device unavailable or token incorrect: Unable to discover the device 192.168.1.16
+2019-06-02 02:06:32 WARNING (MainThread) [homeassistant.components.remote] Platform xiaomi_miio not ready yet. Retrying in 60 seconds.
+2019-06-02 02:07:38 ERROR (MainThread) [miio.device] Unable to discover a device at address 192.168.1.16
+2019-06-02 02:07:38 ERROR (MainThread) [homeassistant.components.xiaomi_miio.remote] Device unavailable or token incorrect: Unable to discover the device 192.168.1.16
+2019-06-02 02:07:38 WARNING (MainThread) [homeassistant.components.remote] Platform xiaomi_miio not ready yet. Retrying in 90 seconds.

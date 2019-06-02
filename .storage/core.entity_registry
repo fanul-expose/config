@@ -90,6 +90,24 @@
                 "name": null,
                 "platform": "plex",
                 "unique_id": "28905c44-a432-427e-9e95-5918a29bfcb7"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.plex_plex_8633abc4_3aaa_47e6_acf1_9bd70935cc4c",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "8633ABC4-3AAA-47E6-ACF1-9BD70935CC4C"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.plex_plex_f4e8e85a0c176370_com_plexapp_android",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "f4e8e85a0c176370-com-plexapp-android"
             }
         ]
     },
