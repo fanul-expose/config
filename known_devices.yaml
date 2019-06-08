@@ -1,4 +1,12 @@
 
+mi_phone:
+  hide_if_away: false
+  icon:
+  mac: f4:f5:db:20:d4:76
+  name: Mi Phone
+  picture:
+  track: true
+
 192_168_1_15_18_65_90_d1_c6_58:
   hide_if_away: false
   icon:
@@ -7,27 +15,19 @@
   picture:
   track: true
 
-192_168_1_15_51_50_9b_cf_dc_63:
+192_168_1_15_75_1d_fa_58_c0_34:
   hide_if_away: false
   icon:
   mac:
-  name: 192 168 1 15 51 50 9b cf dc 63
+  name: 192 168 1 15 75 1d fa 58 c0 34
   picture:
   track: true
 
-192_168_1_15_ea_83_da_b2_12_4a:
+192_168_1_15_52_51_03_60_0b_e7:
   hide_if_away: false
   icon:
   mac:
-  name: 192 168 1 15 ea 83 da b2 12 4a
-  picture:
-  track: true
-
-192_168_1_15_6f_94_76_6e_21_af:
-  hide_if_away: false
-  icon:
-  mac:
-  name: 192 168 1 15 6f 94 76 6e 21 af
+  name: 192 168 1 15 52 51 03 60 0b e7
   picture:
   track: true
 
@@ -39,42 +39,50 @@
   picture:
   track: true
 
+192_168_1_15_28_98_ac_ac_8b_8c:
+  hide_if_away: false
+  icon:
+  mac:
+  name: 192 168 1 15 28 98 ac ac 8b 8c
+  picture:
+  track: true
+
+192_168_1_15_5c_fc_bf_e1_31_60:
+  hide_if_away: false
+  icon:
+  mac:
+  name: 192 168 1 15 5c fc bf e1 31 60
+  picture:
+  track: true
+
+192_168_1_15_5a_47_ae_e3_e1_da:
+  hide_if_away: false
+  icon:
+  mac:
+  name: 192 168 1 15 5a 47 ae e3 e1 da
+  picture:
+  track: true
+
+192_168_1_15_74_c7_9d_26_04_d4:
+  hide_if_away: false
+  icon:
+  mac:
+  name: 192 168 1 15 74 c7 9d 26 04 d4
+  picture:
+  track: true
+
+192_168_1_15_6b_51_19_30_f8_29:
+  hide_if_away: false
+  icon:
+  mac:
+  name: 192 168 1 15 6b 51 19 30 f8 29
+  picture:
+  track: true
+
 192_168_1_15_c8_0f_10_a1_35_30:
   hide_if_away: false
   icon:
   mac:
   name: 192 168 1 15 c8 0f 10 a1 35 30
-  picture:
-  track: true
-
-192_168_1_15_05_51_4b_42_70_80:
-  hide_if_away: false
-  icon:
-  mac:
-  name: 192 168 1 15 05 51 4b 42 70 80
-  picture:
-  track: true
-
-192_168_1_15_71_e5_04_b2_7f_0a:
-  hide_if_away: false
-  icon:
-  mac:
-  name: 192 168 1 15 71 e5 04 b2 7f 0a
-  picture:
-  track: true
-
-192_168_1_15_f4_f5_db_60_d4_77:
-  hide_if_away: false
-  icon:
-  mac:
-  name: 192 168 1 15 f4 f5 db 60 d4 77
-  picture:
-  track: true
-
-192_168_1_15_4b_b0_fa_bf_d8_6d:
-  hide_if_away: false
-  icon:
-  mac:
-  name: 192 168 1 15 4b b0 fa bf d8 6d
   picture:
   track: true

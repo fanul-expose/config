@@ -1,0 +1,35 @@
+{
+    "data": {
+        "entries": [
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "dKs416bWmkI:APA91bHz-QynegZURwT4jRHgRMaFahC4SzE0HAa2LFl9rzNCfDCZIizjLyxyhvO-I7Svzo7lObt_woNBeZ2E0E9w9Iz-qwtSkLwckt5G6Ldld_OBlDONltdBWpAzRmewh4MN-nHS8oJX",
+                        "push_url": "https://ariela.surodev.com/notification/"
+                    },
+                    "app_id": "com.surodev.ariela",
+                    "app_name": "Ariela",
+                    "app_version": "1.3.3.6",
+                    "device_id": "a6570b602144428aaffd97d0db92f333",
+                    "device_name": "Mi_Phone",
+                    "manufacturer": "Xiaomi",
+                    "model": "oxygen",
+                    "os_name": "7.1.1",
+                    "os_version": "7.1.1",
+                    "supports_encryption": false,
+                    "user_id": "10fce46ca9f846dab207792898378c9b",
+                    "webhook_id": "e2c2500efe956920bb9a6e0a69d1dd2178982ea001113e75e63a5fea1f3c2e73"
+                },
+                "domain": "mobile_app",
+                "entry_id": "a9dc126d70724804abd038359766842a",
+                "options": {},
+                "source": "registration",
+                "title": "Mi_Phone",
+                "version": 1
+            }
+        ]
+    },
+    "key": "core.config_entries",
+    "version": 1
+}

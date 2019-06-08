@@ -1,0 +1,52 @@
+{
+    "data": {
+        "devices": [
+            {
+                "area_id": null,
+                "config_entries": [
+                    "a9dc126d70724804abd038359766842a"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "6d435f6069b440048f5f1038412c09ac",
+                "identifiers": [
+                    [
+                        "webhook_id",
+                        "e2c2500efe956920bb9a6e0a69d1dd2178982ea001113e75e63a5fea1f3c2e73"
+                    ],
+                    [
+                        "device_id",
+                        "a6570b602144428aaffd97d0db92f333"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "oxygen",
+                "name": "Mi_Phone",
+                "name_by_user": null,
+                "sw_version": "7.1.1"
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "a9dc126d70724804abd038359766842a"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "447d4dcd92af4798bd3362922d6b9df9",
+                "identifiers": [
+                    [
+                        "mobile_app",
+                        "a6570b602144428aaffd97d0db92f333"
+                    ]
+                ],
+                "manufacturer": "Xiaomi",
+                "model": "oxygen",
+                "name": null,
+                "name_by_user": null,
+                "sw_version": "7.1.1"
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

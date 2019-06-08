@@ -108,6 +108,69 @@
                 "name": null,
                 "platform": "plex",
                 "unique_id": "f4e8e85a0c176370-com-plexapp-android"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.plex_plex_6325c558_603c_45e9_beb3_8e340145e3fe",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "6325c558-603c-45e9-beb3-8e340145e3fe"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.plex_plex_24cc095092f03b85_com_plexapp_android",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "24cc095092f03b85-com-plexapp-android"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.plex_plex_8067338b_2f24_44ba_bc59_8a6394fe685b",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "8067338b-2f24-44ba-bc59-8a6394fe685b"
+            },
+            {
+                "config_entry_id": "a9dc126d70724804abd038359766842a",
+                "device_id": "447d4dcd92af4798bd3362922d6b9df9",
+                "disabled_by": null,
+                "entity_id": "device_tracker.mi_phone_2",
+                "name": null,
+                "platform": "mobile_app",
+                "unique_id": "a6570b602144428aaffd97d0db92f333"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.plex_plex_redmi_s2",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "fc12cc5a75bfd3c0-com-plexapp-android"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.plex_plex_kodiretropie",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "c1550548-ab3d-4c45-a789-45ae904e5874"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.plex_plex_fanuls_iphone",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "1DED584B-8144-4E97-921C-967B854DEF5D"
             }
         ]
     },

@@ -1,14 +1,5 @@
-2019-06-02 02:05:42 ERROR (SyncWorker_0) [homeassistant.util.yaml] YAML file /config/configuration.yaml contains duplicate key "tts". Check lines 16 and 37.
-2019-06-02 02:05:55 ERROR (MainThread) [miio.device] Unable to discover a device at address 192.168.1.16
-2019-06-02 02:05:55 ERROR (MainThread) [homeassistant.components.xiaomi_miio.remote] Device unavailable or token incorrect: Unable to discover the device 192.168.1.16
-2019-06-02 02:05:55 WARNING (MainThread) [homeassistant.setup] Setup of xiaomi_aqara is taking over 10 seconds.
-2019-06-02 02:05:55 WARNING (MainThread) [homeassistant.setup] Setup of person is taking over 10 seconds.
-2019-06-02 02:05:56 WARNING (MainThread) [homeassistant.components.remote] Platform xiaomi_miio not ready yet. Retrying in 30 seconds.
-2019-06-02 02:05:57 WARNING (MainThread) [homeassistant.components.sensor] Setup of platform yr is taking over 10 seconds.
-2019-06-02 02:05:57 ERROR (MainThread) [homeassistant.components.yr.sensor] Retrying in 15 minutes: 
-2019-06-02 02:06:32 ERROR (MainThread) [miio.device] Unable to discover a device at address 192.168.1.16
-2019-06-02 02:06:32 ERROR (MainThread) [homeassistant.components.xiaomi_miio.remote] Device unavailable or token incorrect: Unable to discover the device 192.168.1.16
-2019-06-02 02:06:32 WARNING (MainThread) [homeassistant.components.remote] Platform xiaomi_miio not ready yet. Retrying in 60 seconds.
-2019-06-02 02:07:38 ERROR (MainThread) [miio.device] Unable to discover a device at address 192.168.1.16
-2019-06-02 02:07:38 ERROR (MainThread) [homeassistant.components.xiaomi_miio.remote] Device unavailable or token incorrect: Unable to discover the device 192.168.1.16
-2019-06-02 02:07:38 WARNING (MainThread) [homeassistant.components.remote] Platform xiaomi_miio not ready yet. Retrying in 90 seconds.
+2019-06-08 11:01:21 ERROR (MainThread) [homeassistant.config] Invalid config for [device_tracker]: required key not provided @ data['platform']. Got None. (See /config/configuration.yaml, line 22). Please check the docs at https://home-assistant.io/components/device_tracker/
+2019-06-08 11:01:28 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
+Please remove [include_non_clients], [use_custom_entity_ids].  (See /config/media_player.yaml, line 6). 
+Offending data: {"platform": "plex", "entity_namespace": "<redacted>", "include_non_clients": false, "scan_interval": "<redacted>", "show_all_controls": "<redacted>", "use_custom_entity_ids": true, "use_episode_art": "<redacted>", "remove_unavailable_clients": "<redacted>", "client_remove_interval": "<redacted>"}
+2019-06-08 12:01:21 ERROR (MainThread) [homeassistant.components.updater] Got unexpected response: None

@@ -13,12 +13,11 @@ homeassistant:
   # Customization file
   customize: !include customize.yaml
 
-# Text to speech
-tts:
-  - platform: google_translate
-
 # websocket api
 websocket_api:
+
+#device tracker
+device_tracker:
 
   #auth-TOKEN-X
   auth_providers:
@@ -31,17 +30,10 @@ fastdotcom:
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
 
-
-
-
 # Text to speech
 tts:
   - platform: google_translate
     service_name: google_say
-
-#xiaomi -==-==-==-
-
-
 
 # Discover some devices automatically
 #discovery:
