@@ -13,22 +13,27 @@ homeassistant:
   # Customization file
   customize: !include customize.yaml
 
+  #auth-TOKEN-X
+  auth_providers:
+    - type: homeassistant
+#my_config
+config:
+
+mobile_app:
+
 # websocket api
 websocket_api:
 
 #device tracker
 device_tracker:
 
-  #auth-TOKEN-X
-  auth_providers:
-    - type: homeassistant
-
 fastdotcom:
   scan_interval:
     minutes: 120
 
 # Configure a default setup of Home Assistant (frontend, api, etc)
-default_config:
+#default_config:
+
 
 # Text to speech
 tts:
@@ -38,15 +43,35 @@ tts:
 # Discover some devices automatically
 #discovery:
 
-# ==== # ==== # ~ BELOW IS A PARTIAL CONFIGURATION OF EACH ENTITY ~ # ==== # ==== #
+#input boolean
+input_boolean:
+  guard_home:
+    name: guarding home
+    initial: off
+    icon: mdi:security
 
+#rest command
+rest_command:
+  sonoff_slampher_stat:
+    url: 'http://192.168.1.17/cm?user=admin&password=hakimpalace100&cmnd=power'
+    
+#- service: notify.mobile_app_mi_phone
+#  data:
+#    message: Anne has arrived home
+
+#google_keep:
+#  username: "fanul.doang@gmail.com"
+#  password: "vdrvpnfttffccozd
+
+# ==== # ==== # ~ BELOW IS A PARTIAL CONFIGURATION OF EACH ENTITY ~ # ==== # ==== #
 xiaomi_aqara: !include xiaomi_aqara.yaml
 remote: !include remote.yaml
 sensor: !include sensor.yaml
 media_player: !include media_player.yaml
 google_assistant: !include google_assistant.yaml
-googlehome: !include googlehome.yaml
+#googlehome: !include googlehome.yaml
 panel_iframe: !include panel_iframe.yaml
 group: !include groups.yaml
 automation: !include automations.yaml
+notify: !include notify.yaml
 script: !include scripts.yaml

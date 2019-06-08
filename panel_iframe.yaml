@@ -12,4 +12,4 @@
     ide:
         title: IDE
         icon: mdi:code-braces
-        url: https://addres.to.your.hass.io:8321
+        url: https://192.168.1.33:8321

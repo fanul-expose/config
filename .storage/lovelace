@@ -1,0 +1,72 @@
+{
+    "data": {
+        "config": {
+            "title": "Home",
+            "views": [
+                {
+                    "badges": [
+                        "device_tracker.mi_phone",
+                        "sensor.yr_symbol",
+                        "sensor.status_of_sonoff_slampher_01",
+                        "sensor.illumination_7c49eb1b9c00",
+                        "sensor.fast_com_download"
+                    ],
+                    "cards": [
+                        {
+                            "entities": [
+                                "input_boolean.guard_home"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Home Guard",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                "light.gateway_light_7c49eb1b9c00"
+                            ],
+                            "title": "Light",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "media_player.plex_plex_kodiretropie",
+                            "type": "media-control"
+                        },
+                        {
+                            "entities": [
+                                "script.volume_down_tv",
+                                "script.speed_kipas",
+                                "script.volume_up_tv",
+                                "script.swing_kipas",
+                                "script.on_off_kipas",
+                                "script.on_off_tv"
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Script",
+                            "type": "entities"
+                        },
+                        {
+                            "entity": "sensor.status_of_sonoff_slampher_01",
+                            "hold_action": {
+                                "action": "more-info"
+                            },
+                            "icon": "mdi:alien",
+                            "name": "check sonoff power",
+                            "show_icon": true,
+                            "show_name": true,
+                            "tap_action": {
+                                "action": "call-service",
+                                "service": "rest_command.sonoff_slampher_stat"
+                            },
+                            "theme": "Backend-selected",
+                            "type": "entity-button"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

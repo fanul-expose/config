@@ -1,3 +1,22 @@
 
   # Weather prediction
   - platform: yr
+  
+  #ariela device tracker
+  #- platform: template
+  #sensors:
+  #  battery_samsung:
+  #    friendly_name: My Phone Battery
+  #    unit_of_measurement: '%'
+  #    value_template: >-
+  #        {%- if states.device_tracker.PHONE_DEVICEID.attributes.battery %}
+  #            {{ states.device_tracker.PHONE_DEVICEID.attributes.battery|round }}
+  #        {% else %}
+  #            {{ states.sensor.battery_samsung.state }}
+  #        {%- endif %}
+  #    device_class: battery
+  
+  - platform: rest
+    resource: 'http://192.168.1.17/cm?user=admin&password=hakimpalace100&cmnd=power'
+    name: status_of_sonoff_slampher_01
+    value_template: '{{ value_json.POWER }}'
