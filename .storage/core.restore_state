@@ -1,7 +1,7 @@
 {
     "data": [
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "battery": 80,
@@ -12,252 +12,278 @@
                     "source_type": "gps"
                 },
                 "context": {
-                    "id": "7883f26be7c74645981a50c5486544cd",
+                    "id": "f2cf331ebfc144fe99128b8589b6c4aa",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.mi_phone",
-                "last_changed": "2019-06-08T16:28:43.986813+00:00",
-                "last_updated": "2019-06-08T16:28:43.986813+00:00",
+                "last_changed": "2019-06-09T05:45:20.709871+00:00",
+                "last_updated": "2019-06-09T05:45:20.709871+00:00",
                 "state": "home"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "192 168 1 15 18 65 90 d1 c6 58",
                     "source_type": "bluetooth"
                 },
                 "context": {
-                    "id": "4689de9f06834b558a8948a851fec8c4",
+                    "id": "29a0a4093cf94437919856f219dc2848",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.192_168_1_15_18_65_90_d1_c6_58",
-                "last_changed": "2019-06-08T16:28:43.987645+00:00",
-                "last_updated": "2019-06-08T16:28:43.987645+00:00",
+                "last_changed": "2019-06-09T05:45:20.710841+00:00",
+                "last_updated": "2019-06-09T05:45:20.710841+00:00",
                 "state": "not_home"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "192 168 1 15 75 1d fa 58 c0 34",
                     "source_type": null
                 },
                 "context": {
-                    "id": "70fd22dad7d04475ae3bb4c80a30fc5f",
+                    "id": "089d1d18d0db4f169aad2b8dad2bd5df",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.192_168_1_15_75_1d_fa_58_c0_34",
-                "last_changed": "2019-06-08T16:28:43.988325+00:00",
-                "last_updated": "2019-06-08T16:28:43.988325+00:00",
+                "last_changed": "2019-06-09T05:45:20.711628+00:00",
+                "last_updated": "2019-06-09T05:45:20.711628+00:00",
                 "state": "not_home"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "192 168 1 15 52 51 03 60 0b e7",
                     "source_type": null
                 },
                 "context": {
-                    "id": "f1398e7f4b614fb4a1a3dfc5e9555946",
+                    "id": "3369486495b145968ac8a1df34216d3f",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.192_168_1_15_52_51_03_60_0b_e7",
-                "last_changed": "2019-06-08T16:28:43.988979+00:00",
-                "last_updated": "2019-06-08T16:28:43.988979+00:00",
+                "last_changed": "2019-06-09T05:45:20.712752+00:00",
+                "last_updated": "2019-06-09T05:45:20.712752+00:00",
                 "state": "not_home"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "192 168 1 15 88 0f 10 a8 72 12",
                     "source_type": "bluetooth"
                 },
                 "context": {
-                    "id": "76566a5e1a004e33a677eb48d9098850",
+                    "id": "6f36e902f1e5492eb03f816f1ed629e1",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.192_168_1_15_88_0f_10_a8_72_12",
-                "last_changed": "2019-06-08T16:28:43.989629+00:00",
-                "last_updated": "2019-06-08T16:28:43.989629+00:00",
+                "last_changed": "2019-06-09T05:45:20.713874+00:00",
+                "last_updated": "2019-06-09T05:45:20.713874+00:00",
                 "state": "not_home"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "192 168 1 15 28 98 ac ac 8b 8c",
                     "source_type": null
                 },
                 "context": {
-                    "id": "4d47f2d6bf9a4000b06d75f74cfeab54",
+                    "id": "2ab57b4637e943798bb9c24a8d851c9e",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.192_168_1_15_28_98_ac_ac_8b_8c",
-                "last_changed": "2019-06-08T16:28:43.990274+00:00",
-                "last_updated": "2019-06-08T16:28:43.990274+00:00",
+                "last_changed": "2019-06-09T05:45:20.714788+00:00",
+                "last_updated": "2019-06-09T05:45:20.714788+00:00",
                 "state": "not_home"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "192 168 1 15 5c fc bf e1 31 60",
                     "source_type": null
                 },
                 "context": {
-                    "id": "425dafd1a99042dc8e0562ba3a482007",
+                    "id": "c387ce66620744ac9b776da07b410c86",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.192_168_1_15_5c_fc_bf_e1_31_60",
-                "last_changed": "2019-06-08T16:28:43.990919+00:00",
-                "last_updated": "2019-06-08T16:28:43.990919+00:00",
+                "last_changed": "2019-06-09T05:45:20.715615+00:00",
+                "last_updated": "2019-06-09T05:45:20.715615+00:00",
                 "state": "not_home"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "192 168 1 15 5a 47 ae e3 e1 da",
                     "source_type": null
                 },
                 "context": {
-                    "id": "3cc29f1d32a8492fbfd6d2460a9cd357",
+                    "id": "ffc65b8ae71f4c96922190e7832bff64",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.192_168_1_15_5a_47_ae_e3_e1_da",
-                "last_changed": "2019-06-08T16:28:43.991577+00:00",
-                "last_updated": "2019-06-08T16:28:43.991577+00:00",
+                "last_changed": "2019-06-09T05:45:20.716422+00:00",
+                "last_updated": "2019-06-09T05:45:20.716422+00:00",
                 "state": "not_home"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "192 168 1 15 74 c7 9d 26 04 d4",
                     "source_type": null
                 },
                 "context": {
-                    "id": "85e750d686734af6ac80bba98452be97",
+                    "id": "d8f05c577d9945b1b707c353997b793f",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.192_168_1_15_74_c7_9d_26_04_d4",
-                "last_changed": "2019-06-08T16:28:43.992327+00:00",
-                "last_updated": "2019-06-08T16:28:43.992327+00:00",
+                "last_changed": "2019-06-09T05:45:20.717221+00:00",
+                "last_updated": "2019-06-09T05:45:20.717221+00:00",
                 "state": "not_home"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "192 168 1 15 6b 51 19 30 f8 29",
                     "source_type": "bluetooth"
                 },
                 "context": {
-                    "id": "22301777c0be4ac9aa4cf4be6c8a7bf0",
+                    "id": "047223606ad04c8d97f5e916f7cdd9d0",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.192_168_1_15_6b_51_19_30_f8_29",
-                "last_changed": "2019-06-08T16:28:43.993023+00:00",
-                "last_updated": "2019-06-08T16:28:43.993023+00:00",
+                "last_changed": "2019-06-09T05:45:20.718099+00:00",
+                "last_updated": "2019-06-09T05:45:20.718099+00:00",
                 "state": "not_home"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "192 168 1 15 c8 0f 10 a1 35 30",
                     "source_type": null
                 },
                 "context": {
-                    "id": "589961b68bd14b55a82a09310dd640a9",
+                    "id": "2ad2d27ed027427786c290bf0ffc944f",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.192_168_1_15_c8_0f_10_a1_35_30",
-                "last_changed": "2019-06-08T16:28:43.993866+00:00",
-                "last_updated": "2019-06-08T16:28:43.993866+00:00",
+                "last_changed": "2019-06-09T05:45:20.718907+00:00",
+                "last_updated": "2019-06-09T05:45:20.718907+00:00",
                 "state": "not_home"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "192 168 1 15 75 20 86 37 d2 ff",
                     "source_type": "bluetooth"
                 },
                 "context": {
-                    "id": "b0dd2e210bf54f13bcc6b4c82580ebc4",
+                    "id": "3b6542107d0b4aad8ad1037e0288a1d6",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.192_168_1_15_75_20_86_37_d2_ff",
-                "last_changed": "2019-06-08T16:28:43.994635+00:00",
-                "last_updated": "2019-06-08T16:28:43.994635+00:00",
+                "last_changed": "2019-06-09T05:45:20.719660+00:00",
+                "last_updated": "2019-06-09T05:45:20.719660+00:00",
                 "state": "not_home"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
+            "state": {
+                "attributes": {
+                    "day": 9,
+                    "friendly_name": "Input with both date and time",
+                    "has_date": true,
+                    "has_time": true,
+                    "hour": 0,
+                    "minute": 0,
+                    "month": 1,
+                    "second": 0,
+                    "timestamp": 666000.0,
+                    "year": 1970
+                },
+                "context": {
+                    "id": "641b4b81b0554a24be89ec6e06ec0c2e",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "input_datetime.both_date_and_time",
+                "last_changed": "2019-06-09T05:45:20.720536+00:00",
+                "last_updated": "2019-06-09T05:45:20.720536+00:00",
+                "state": "1970-01-09 00:00:00"
+            }
+        },
+        {
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "guarding home",
                     "icon": "mdi:security"
                 },
                 "context": {
-                    "id": "121d9f13a59842fdb3f02ab24d6a4730",
+                    "id": "6fd5ee75b2cc45768864a331f98a77ae",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "input_boolean.guard_home",
-                "last_changed": "2019-06-08T16:28:43.995216+00:00",
-                "last_updated": "2019-06-08T16:28:43.995216+00:00",
+                "last_changed": "2019-06-09T05:45:20.721212+00:00",
+                "last_updated": "2019-06-09T05:45:20.721212+00:00",
                 "state": "off"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Mi_Phone",
                     "source_type": "gps"
                 },
                 "context": {
-                    "id": "bc34b607af9f4b2794dcc6cdd7a859d2",
+                    "id": "08b6c9477575489f979e215b146d71f5",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "device_tracker.mi_phone_2",
-                "last_changed": "2019-06-08T16:28:44.306493+00:00",
-                "last_updated": "2019-06-08T16:28:44.306493+00:00",
+                "last_changed": "2019-06-09T05:45:20.937378+00:00",
+                "last_updated": "2019-06-09T05:45:20.937378+00:00",
                 "state": "unknown"
             }
         },
         {
-            "last_seen": "2019-06-08T17:13:48.004955+00:00",
+            "last_seen": "2019-06-09T06:30:25.006039+00:00",
             "state": {
                 "attributes": {
                     "friendly_name": "Fast.com Download",
@@ -265,14 +291,14 @@
                     "unit_of_measurement": "Mbit/s"
                 },
                 "context": {
-                    "id": "7039c6d13b2848098ddb38286c8f138d",
+                    "id": "aa66fbd5ecb344539dc197c10e4ac9fd",
                     "parent_id": null,
                     "user_id": null
                 },
                 "entity_id": "sensor.fast_com_download",
-                "last_changed": "2019-06-08T16:28:45.782042+00:00",
-                "last_updated": "2019-06-08T16:28:45.782042+00:00",
-                "state": "6.2"
+                "last_changed": "2019-06-09T05:45:22.279371+00:00",
+                "last_updated": "2019-06-09T05:45:22.279371+00:00",
+                "state": "6.5"
             }
         },
         {

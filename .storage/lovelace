@@ -22,7 +22,12 @@
                         },
                         {
                             "entities": [
-                                "light.gateway_light_7c49eb1b9c00"
+                                {
+                                    "entity": "light.gateway_light_7c49eb1b9c00"
+                                },
+                                {
+                                    "entity": "light.yeelight_strip"
+                                }
                             ],
                             "title": "Light",
                             "type": "entities"
@@ -45,20 +50,14 @@
                             "type": "entities"
                         },
                         {
-                            "entity": "sensor.status_of_sonoff_slampher_01",
-                            "hold_action": {
-                                "action": "more-info"
-                            },
-                            "icon": "mdi:alien",
-                            "name": "check sonoff power",
-                            "show_icon": true,
-                            "show_name": true,
-                            "tap_action": {
-                                "action": "call-service",
-                                "service": "rest_command.sonoff_slampher_stat"
-                            },
-                            "theme": "Backend-selected",
-                            "type": "entity-button"
+                            "entities": [
+                                {
+                                    "entity": "persistent_notification.config_warning"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Persistent Notification",
+                            "type": "entities"
                         }
                     ],
                     "path": "default_view",

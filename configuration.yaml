@@ -31,9 +31,20 @@ fastdotcom:
   scan_interval:
     minutes: 120
 
+input_boolean: 
+  guard_home:
+    name: guarding home
+    initial: off
+    icon: mdi:security
+
 # Configure a default setup of Home Assistant (frontend, api, etc)
 #default_config:
 
+input_datetime:
+  both_date_and_time:
+    name: Input with both date and time
+    has_date: true
+    has_time: true
 
 # Text to speech
 tts:
@@ -43,13 +54,6 @@ tts:
 # Discover some devices automatically
 #discovery:
 
-#input boolean
-input_boolean:
-  guard_home:
-    name: guarding home
-    initial: off
-    icon: mdi:security
-
 #rest command
 rest_command:
   sonoff_slampher_stat:
@@ -58,6 +62,12 @@ rest_command:
 #- service: notify.mobile_app_mi_phone
 #  data:
 #    message: Anne has arrived home
+
+yeelight:
+  devices:
+    192.168.1.14:
+      name: yeelight strip
+      model: strip1
 
 #google_keep:
 #  username: "fanul.doang@gmail.com"
@@ -74,4 +84,5 @@ panel_iframe: !include panel_iframe.yaml
 group: !include groups.yaml
 automation: !include automations.yaml
 notify: !include notify.yaml
+
 script: !include scripts.yaml

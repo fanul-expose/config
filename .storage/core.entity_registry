@@ -171,6 +171,24 @@
                 "name": null,
                 "platform": "plex",
                 "unique_id": "1DED584B-8144-4E97-921C-967B854DEF5D"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.plex_plex_chrome",
+                "name": null,
+                "platform": "plex",
+                "unique_id": "p7y4it05cz1dmxkpds05rfqc"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.switch_158d000201671a",
+                "name": null,
+                "platform": "xiaomi_aqara",
+                "unique_id": "status158d000201671a"
             }
         ]
     },

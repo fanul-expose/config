@@ -1,4 +1,4 @@
-2019-06-08 23:28:39 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for fcm-android which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
-2019-06-08 23:28:43 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
+2019-06-09 12:45:16 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for fcm-android which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2019-06-09 12:45:20 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
 Please remove [include_non_clients], [use_custom_entity_ids].  (See /config/media_player.yaml, line 6). 
 Offending data: {"platform": "plex", "entity_namespace": "<redacted>", "include_non_clients": false, "scan_interval": "<redacted>", "show_all_controls": "<redacted>", "use_custom_entity_ids": true, "use_episode_art": "<redacted>", "remove_unavailable_clients": "<redacted>", "client_remove_interval": "<redacted>"}
