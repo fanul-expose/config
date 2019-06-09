@@ -13,3 +13,7 @@
     use_episode_art: true
     remove_unavailable_clients: true
     client_remove_interval: 600
+    
+  - platform: cast
+    host: 192.168.1.15
+    name: home speaker

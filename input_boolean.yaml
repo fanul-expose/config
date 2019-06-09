@@ -1,0 +1,5 @@
+
+  guard_home:
+    name: guarding home
+    initial: off
+    icon: mdi:security

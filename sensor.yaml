@@ -1,7 +1,4 @@
 
-  # Weather prediction
-  - platform: yr
-  
   #ariela device tracker
   #- platform: template
   #sensors:
@@ -17,6 +14,27 @@
   #    device_class: battery
   
   - platform: rest
-    resource: 'http://192.168.1.17/cm?user=admin&password=hakimpalace100&cmnd=power'
-    name: status_of_sonoff_slampher_01
-    value_template: '{{ value_json.POWER }}'
+    name: "Prayer Times"
+    json_attributes:
+      - data
+    resource: "http://api.aladhan.com/v1/timings?latitude=52.587904&longitude=-0.1458179&method=3"
+    value_template: '{{ value_json["data"]["meta"]["method"]["name"].title() }}'
+    scan_interval: 86400
+
+  - platform: template
+    sensors:
+      fajr:
+        friendly_name: 'Fajr Prayer Time'
+        value_template: '{{ states.sensor.prayer_times.attributes.data.timings["Fajr"] | timestamp_custom("%H:%M") }}'
+      dhuhr:
+        friendly_name: 'Dhuhr Prayer Time'
+        value_template: '{{ states.sensor.prayer_times.attributes.data.timings["Dhuhr"] | timestamp_custom("%H:%M") }}'
+      asr:
+        friendly_name: 'Asr Prayer Time'
+        value_template: '{{ states.sensor.prayer_times.attributes.data.timings["Asr"] | timestamp_custom("%H:%M") }}'
+      magrib:
+        friendly_name: 'Magrib Prayer Time'
+        value_template: '{{ states.sensor.prayer_times.attributes.data.timings["Maghrib"] | timestamp_custom("%H:%M") }}'
+      isha:
+        friendly_name: 'Isha Prayer Time'
+        value_template: '{{ states.sensor.prayer_times.attributes.data.timings["Isha"] | timestamp_custom("%H:%M") }}'

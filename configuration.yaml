@@ -52,7 +52,7 @@ tts:
     service_name: google_say
 
 # Discover some devices automatically
-#discovery:
+discovery:
 
 #rest command
 rest_command:
@@ -76,13 +76,14 @@ yeelight:
 # ==== # ==== # ~ BELOW IS A PARTIAL CONFIGURATION OF EACH ENTITY ~ # ==== # ==== #
 xiaomi_aqara: !include xiaomi_aqara.yaml
 remote: !include remote.yaml
-sensor: !include sensor.yaml
 media_player: !include media_player.yaml
 google_assistant: !include google_assistant.yaml
 #googlehome: !include googlehome.yaml
 panel_iframe: !include panel_iframe.yaml
 group: !include groups.yaml
-automation: !include automations.yaml
+automation: !include_dir_merge_list automations
 notify: !include notify.yaml
 
 script: !include scripts.yaml
+
+sensor: !include sensor.yaml

@@ -1,1 +1,40 @@
-[]
+
+  - alias: "Fajr Athan"
+    initial_state: true
+    hide_entity: true
+    trigger:
+      - condition: template
+        value_template: '{{ states.sensor.time.state == states("sensor.fajr") }}'
+    action:
+      - service: media_player.volume_set
+        data_template:
+          entity_id: media_player.home_speaker
+          volume_level: 0.75
+      - service: media_player.play_media
+        data:
+          entity_id: media_player.home_speaker
+          media_content_id: /config/local/1001.mp3
+          media_content_type: audio/mp3
+  
+  - alias: "Athan"
+    initial_state: true
+    hide_entity: true
+    trigger:
+      - platform: template
+        value_template: '{{ states.sensor.time.state == states("sensor.dhuhr") }}'
+      - platform: template
+        value_template: '{{ states.sensor.time.state == states("sensor.asr") }}'
+      - platform: template
+        value_template: '{{ states.sensor.time.state == states("sensor.maghrib") }}'
+      - platform: template
+        value_template: '{{ states.sensor.time.state == states("sensor.isha") }}'
+    action:
+      - service: media_player.volume_set
+        data_template:
+          entity_id: media_player.home_speaker
+          volume_level: 0.75
+      - service: media_player.play_media
+        data:
+          entity_id: media_player.home_speaker
+          media_content_id: /config/local/1000.mp3
+          media_content_type: audio/mp3
