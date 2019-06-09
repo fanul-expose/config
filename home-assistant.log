@@ -1,10 +1,10 @@
-2019-06-09 23:22:01 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for grocy which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
-2019-06-09 23:22:04 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for fcm-android which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
-2019-06-09 23:22:06 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
+2019-06-09 23:56:01 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for grocy which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2019-06-09 23:56:04 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for fcm-android which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2019-06-09 23:56:06 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
 Please remove [include_non_clients], [use_custom_entity_ids].  (See /config/media_player.yaml, line 6). 
 Offending data: {"platform": "plex", "entity_namespace": "<redacted>", "include_non_clients": false, "scan_interval": "<redacted>", "show_all_controls": "<redacted>", "use_custom_entity_ids": true, "use_episode_art": "<redacted>", "remove_unavailable_clients": "<redacted>", "client_remove_interval": "<redacted>"}
-2019-06-09 23:22:06 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
+2019-06-09 23:56:06 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
 Please remove [name].  (See /config/media_player.yaml, line 16). 
 Offending data: {"platform": "cast", "host": "<redacted>", "name": "home speaker"}
-2019-06-09 23:22:46 CRITICAL (MainThread) [custom_components.grocy] OrderedDict([('enabled', True), ('name', 'grocy')])
-2019-06-09 23:22:49 WARNING (MainThread) [homeassistant.components.cast.media_player] Setting configuration for Cast via platform is deprecated. Configure via Cast component instead.
+2019-06-09 23:56:42 CRITICAL (MainThread) [custom_components.grocy] OrderedDict([('enabled', True), ('name', 'grocy')])
+2019-06-09 23:56:45 WARNING (MainThread) [homeassistant.components.cast.media_player] Setting configuration for Cast via platform is deprecated. Configure via Cast component instead.
