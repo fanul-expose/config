@@ -19,6 +19,13 @@ homeassistant:
 #my_config
 config:
 
+#logger:
+#  logs:
+#      custom_components.hacs: debug
+
+#hacs:
+#  token: f707f8c80cc54c93779c540a6d1c7614baf8ff95
+
 mobile_app:
 
 # websocket api
@@ -87,3 +94,9 @@ notify: !include notify.yaml
 script: !include scripts.yaml
 
 sensor: !include sensor.yaml
+
+grocy:
+  url: "http://192.168.1.33:9192/api/"
+  api_key: "TCHW5GH43z5qUH8FQFKV5PPqsfLzNiXIw7wFXsWURZDqJbLNXC"
+  sensor:
+    - enabled: true

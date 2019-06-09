@@ -1,15 +1,23 @@
-2019-06-09 21:20:13 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for fcm-android which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
-2019-06-09 21:20:18 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
+2019-06-09 22:47:50 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for grocy which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2019-06-09 22:47:53 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for fcm-android which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you do experience issues with Home Assistant.
+2019-06-09 22:47:55 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
 Please remove [include_non_clients], [use_custom_entity_ids].  (See /config/media_player.yaml, line 6). 
 Offending data: {"platform": "plex", "entity_namespace": "<redacted>", "include_non_clients": false, "scan_interval": "<redacted>", "show_all_controls": "<redacted>", "use_custom_entity_ids": true, "use_episode_art": "<redacted>", "remove_unavailable_clients": "<redacted>", "client_remove_interval": "<redacted>"}
-2019-06-09 21:20:19 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
+2019-06-09 22:47:55 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
 Please remove [name].  (See /config/media_player.yaml, line 16). 
 Offending data: {"platform": "cast", "host": "<redacted>", "name": "home speaker"}
-2019-06-09 21:20:19 WARNING (MainThread) [homeassistant.components.cast.media_player] Setting configuration for Cast via platform is deprecated. Configure via Cast component instead.
-2019-06-09 21:20:23 ERROR (SyncWorker_4) [homeassistant.components.rest.sensor] Error fetching data: <PreparedRequest [GET]> from http://api.aladhan.com/v1/timings?latitude=52.587904&longitude=-0.1458179&method=3 failed with HTTPConnectionPool(host='api.aladhan.com', port=80): Max retries exceeded with url: /v1/timings?latitude=52.587904&longitude=-0.1458179&method=3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72436ed0>: Failed to establish a new connection: [Errno -3] Try again'))
-2019-06-09 21:20:23 WARNING (MainThread) [homeassistant.components.sensor] Platform rest not ready yet. Retrying in 30 seconds.
-2019-06-09 21:20:23 WARNING (MainThread) [homeassistant.components.template.sensor] Could not render template Dhuhr Prayer Time, the state is unknown.
-2019-06-09 21:20:23 WARNING (MainThread) [homeassistant.components.template.sensor] Could not render template Asr Prayer Time, the state is unknown.
-2019-06-09 21:20:23 WARNING (MainThread) [homeassistant.components.template.sensor] Could not render template Magrib Prayer Time, the state is unknown.
-2019-06-09 21:20:23 WARNING (MainThread) [homeassistant.components.template.sensor] Could not render template Isha Prayer Time, the state is unknown.
-2019-06-09 21:20:23 WARNING (MainThread) [homeassistant.components.template.sensor] Could not render template Fajr Prayer Time, the state is unknown.
+2019-06-09 22:48:04 ERROR (SyncWorker_14) [homeassistant.components.rest.sensor] Error fetching data: <PreparedRequest [GET]> from http://api.aladhan.com/v1/timings?latitude=-6.247441&longitude=-106.852887&method=3 failed with HTTPConnectionPool(host='api.aladhan.com', port=80): Max retries exceeded with url: /v1/timings?latitude=-6.247441&longitude=-106.852887&method=3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x72ea5e10>: Failed to establish a new connection: [Errno -3] Try again'))
+2019-06-09 22:48:04 WARNING (SyncWorker_14) [homeassistant.components.rest.sensor] Empty reply found when expecting JSON data
+2019-06-09 22:49:14 CRITICAL (MainThread) [custom_components.grocy] OrderedDict([('enabled', True), ('name', 'grocy')])
+2019-06-09 22:49:17 WARNING (MainThread) [homeassistant.components.cast.media_player] Setting configuration for Cast via platform is deprecated. Configure via Cast component instead.
+2019-06-09 22:49:18 ERROR (MainThread) [homeassistant.components.template.sensor] Could not render template Isha Prayer Time: UndefinedError: 'mappingproxy object' has no attribute 'data'
+2019-06-09 22:49:18 ERROR (MainThread) [homeassistant.components.template.sensor] Could not render template Magrib Prayer Time: UndefinedError: 'mappingproxy object' has no attribute 'data'
+2019-06-09 22:49:18 ERROR (MainThread) [homeassistant.components.template.sensor] Could not render template Fajr Prayer Time: UndefinedError: 'mappingproxy object' has no attribute 'data'
+2019-06-09 22:49:18 ERROR (MainThread) [homeassistant.components.template.sensor] Could not render template Dhuhr Prayer Time: UndefinedError: 'mappingproxy object' has no attribute 'data'
+2019-06-09 22:49:18 ERROR (MainThread) [homeassistant.components.template.sensor] Could not render template Asr Prayer Time: UndefinedError: 'mappingproxy object' has no attribute 'data'
+2019-06-09 22:54:36 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
+Please remove [include_non_clients], [use_custom_entity_ids]. 
+Offending data: {"platform": "plex", "entity_namespace": "<redacted>", "include_non_clients": false, "scan_interval": "<redacted>", "show_all_controls": "<redacted>", "use_custom_entity_ids": true, "use_episode_art": "<redacted>", "remove_unavailable_clients": "<redacted>", "client_remove_interval": "<redacted>"}
+2019-06-09 22:54:36 WARNING (MainThread) [homeassistant.helpers.config_validation] Your configuration contains extra keys that the platform does not support.
+Please remove [name]. 
+Offending data: {"platform": "cast", "host": "<redacted>", "name": "home speaker"}

@@ -189,6 +189,15 @@
                 "name": null,
                 "platform": "xiaomi_aqara",
                 "unique_id": "status158d000201671a"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "media_player.fanul_google_home",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "e5260800-0d62-96ac-2501-cd7b59f8ba40"
             }
         ]
     },

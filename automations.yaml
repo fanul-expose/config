@@ -6,13 +6,14 @@
       - condition: template
         value_template: '{{ states.sensor.time.state == states("sensor.fajr") }}'
     action:
+      - service: media_player.turn_on
       - service: media_player.volume_set
         data_template:
-          entity_id: media_player.home_speaker
+          entity_id: media_player.fanul_google_home
           volume_level: 0.75
       - service: media_player.play_media
         data:
-          entity_id: media_player.home_speaker
+          entity_id: media_player.fanul_google_home
           media_content_id: /config/local/1001.mp3
           media_content_type: audio/mp3
   
@@ -29,12 +30,13 @@
       - platform: template
         value_template: '{{ states.sensor.time.state == states("sensor.isha") }}'
     action:
+      - service: media_player.turn_on
       - service: media_player.volume_set
         data_template:
-          entity_id: media_player.home_speaker
+          entity_id: media_player.fanul_google_home
           volume_level: 0.75
       - service: media_player.play_media
         data:
-          entity_id: media_player.home_speaker
+          entity_id: media_player.fanul_google_home
           media_content_id: /config/local/1000.mp3
           media_content_type: audio/mp3

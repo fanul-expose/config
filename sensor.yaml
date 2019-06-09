@@ -17,7 +17,7 @@
     name: "Prayer Times"
     json_attributes:
       - data
-    resource: "http://api.aladhan.com/v1/timings?latitude=52.587904&longitude=-0.1458179&method=3"
+    resource: "http://api.aladhan.com/v1/timings?latitude=-6.247441&longitude=-106.852887&method=3"
     value_template: '{{ value_json["data"]["meta"]["method"]["name"].title() }}'
     scan_interval: 86400
 

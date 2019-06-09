@@ -6,8 +6,6 @@
                 {
                     "badges": [
                         "device_tracker.mi_phone",
-                        "sensor.yr_symbol",
-                        "sensor.status_of_sonoff_slampher_01",
                         "sensor.illumination_7c49eb1b9c00",
                         "sensor.fast_com_download"
                     ],
