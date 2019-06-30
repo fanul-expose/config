@@ -100,3 +100,13 @@ grocy:
   api_key: "TCHW5GH43z5qUH8FQFKV5PPqsfLzNiXIw7wFXsWURZDqJbLNXC"
   sensor:
     - enabled: true
+
+camera:
+  - platform: generic
+    name: Camera
+    still_image_url: https://192.168.1.178/cgi-bin/currentpic.cgi
+    stream_source: rtsp://192.168.1.178:8554/unicast
+    verify_ssl: false
+    username: root
+    password: ismart12
+    authentication: basic
