@@ -37,7 +37,7 @@
                             "type": "entities"
                         },
                         {
-                            "entity": "media_player.plex_plex_kodiretropie",
+                            "entity": "media_player.kodi",
                             "type": "media-control"
                         },
                         {

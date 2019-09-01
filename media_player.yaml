@@ -4,16 +4,16 @@
     username: fanul
     password: hakimpalace100
 
-  - platform: plex
-    entity_namespace: 'plex'
-    include_non_clients: false
-    scan_interval: 5
-    show_all_controls: true
-    use_custom_entity_ids: true
-    use_episode_art: true
-    remove_unavailable_clients: true
-    client_remove_interval: 600
+#  - platform: plex
+#    entity_namespace: 'plex'
+#    include_non_clients: false
+#    scan_interval: 5
+#    show_all_controls: true
+#    use_custom_entity_ids: true
+ #   use_episode_art: true
+ #   remove_unavailable_clients: true
+ #   client_remove_interval: 600
     
-  - platform: cast
-    host: 192.168.1.15
-    name: home speaker
+ # - platform: cast
+ #   host: 192.168.1.15
+ #   name: home speaker

@@ -70,12 +70,6 @@ rest_command:
 #  data:
 #    message: Anne has arrived home
 
-yeelight:
-  devices:
-    192.168.1.14:
-      name: yeelight strip
-      model: strip1
-
 #google_keep:
 #  username: "fanul.doang@gmail.com"
 #  password: "vdrvpnfttffccozd
@@ -90,16 +84,18 @@ panel_iframe: !include panel_iframe.yaml
 group: !include groups.yaml
 automation: !include_dir_merge_list automations
 notify: !include notify.yaml
+yeelight: !include yeelight.yaml
 
 script: !include scripts.yaml
 
 sensor: !include sensor.yaml
 
-grocy:
-  url: "http://192.168.1.33:9192/api/"
-  api_key: "TCHW5GH43z5qUH8FQFKV5PPqsfLzNiXIw7wFXsWURZDqJbLNXC"
-  sensor:
-    - enabled: true
+
+#grocy:
+#  url: "http://192.168.1.33:9192/api/"
+#  api_key: "TCHW5GH43z5qUH8FQFKV5PPqsfLzNiXIw7wFXsWURZDqJbLNXC"
+#  sensor:
+#    - enabled: true
 
 camera:
   - platform: generic
@@ -110,3 +106,9 @@ camera:
     username: root
     password: ismart12
     authentication: basic
+    
+yeelight:
+  devices:
+    192.168.1.14:
+      name: yeelight strip
+      model: strip1
