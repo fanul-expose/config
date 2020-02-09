@@ -17,7 +17,7 @@
     name: "Prayer Times"
     json_attributes:
       - data
-    resource: "http://api.aladhan.com/v1/timings?latitude=-6.247441&longitude=-106.852887&method=3"
+    resource: "http://api.aladhan.com/v1/timings?latitude=-6.247441&longitude=-106.852887&method=3&tune=-7,-7,-7,-7,-7,-7,-7,-7,-7"
     value_template: '{{ value_json["data"]["meta"]["method"]["name"].title() }}'
     scan_interval: 86400
 
@@ -74,3 +74,13 @@
       - visibility
     scan_interval:
       minutes: 60
+
+  - platform: aftership
+    api_key: af5c7a40891949009f9347632fa2f8ae
+      
+#  - platform: google_keep
+#    username: !secret google_keep.username
+#    password: !secret google_keep.password
+#    titles:
+#      - 'grocery'
+#    pinned: true

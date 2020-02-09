@@ -1,0 +1,25 @@
+
+  # Name of the location where Home Assistant is running
+  name: Rumah Fanul
+  # Location required to calculate the time the sun rises and sets
+  latitude: -6.425655
+  longitude: 106.826172
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 0
+  # metric for Metric, imperial for Imperial
+  unit_system: metric
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: Asia/Jakarta
+  
+  # Customization file
+  customize: !include customize.yaml
+
+  #auth-TOKEN-X
+  auth_providers:
+    - type: homeassistant
+    - type: trusted_networks
+      trusted_networks:
+        - 192.168.0.0/24
+        - 127.0.0.1
+        - 1.2.3.0/24
+        - ::1

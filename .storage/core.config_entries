@@ -2,30 +2,149 @@
     "data": {
         "entries": [
             {
+                "connection_class": "cloud_poll",
+                "data": {},
+                "domain": "hacs",
+                "entry_id": "65fa0c7369684faba8dfb08855a58bfb",
+                "options": {},
+                "source": "import",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "configuration.yaml",
+                "unique_id": null,
+                "version": 1
+            },
+            {
                 "connection_class": "cloud_push",
                 "data": {
                     "app_data": {
-                        "push_token": "dKs416bWmkI:APA91bHz-QynegZURwT4jRHgRMaFahC4SzE0HAa2LFl9rzNCfDCZIizjLyxyhvO-I7Svzo7lObt_woNBeZ2E0E9w9Iz-qwtSkLwckt5G6Ldld_OBlDONltdBWpAzRmewh4MN-nHS8oJX",
-                        "push_url": "https://ariela.surodev.com/notification/"
+                        "push_token": "fQXzQja6r8Q:APA91bEDrsemsgA4Bao2K_B9vU9ls73K-7D_mXfcqP4lJtlJDW5x7JedZzpWJ-Gdplg0zZFDbYAdSaJxTYL0FgvjKMtnbAMmPl-Y_K2YzONXRv3RIuB3H128dTQaIJusqfP7u-SO_NdM",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
                     },
-                    "app_id": "com.surodev.ariela",
-                    "app_name": "Ariela",
-                    "app_version": "1.3.3.9",
-                    "device_id": "a6570b602144428aaffd97d0db92f333",
-                    "device_name": "Mi_Phone",
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "1.5.1 (97)",
+                    "device_id": "24cc095092f03b85",
+                    "device_name": "MI MAX 2",
                     "manufacturer": "Xiaomi",
-                    "model": "oxygen",
-                    "os_name": "7.1.1",
-                    "os_version": "7.1.1",
+                    "model": "MI MAX 2",
+                    "os_name": "Android",
+                    "os_version": "25",
                     "supports_encryption": false,
                     "user_id": "10fce46ca9f846dab207792898378c9b",
-                    "webhook_id": "e2c2500efe956920bb9a6e0a69d1dd2178982ea001113e75e63a5fea1f3c2e73"
+                    "webhook_id": "99ba7b676f40a2ac4d963ff041b41e493e12d14e93fc055fffaf166e7ff4bb4e"
                 },
                 "domain": "mobile_app",
-                "entry_id": "a9dc126d70724804abd038359766842a",
+                "entry_id": "57973bc1627d43e0aee3615136070ef9",
                 "options": {},
                 "source": "registration",
-                "title": "Mi_Phone",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "MI MAX 2",
+                "unique_id": "io.homeassistant.companion.android-24cc095092f03b85",
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_push",
+                "data": {
+                    "app_data": {
+                        "push_token": "c7yEvucSlUI:APA91bFxzh-W4JD9IDUk65IEwHZP58YX3-QYlecYTlnAcJ4xLyYs7rk3r9pbrpjNXKAnYZi37YFN42uCXn5aeCDIOmnXx9qUdW67VM5P8UJ1_9YgCoIyUlcGelXte5H-2ZYLnxxa3xTn",
+                        "push_url": "https://mobile-apps.home-assistant.io/api/sendPushNotification"
+                    },
+                    "app_id": "io.homeassistant.companion.android",
+                    "app_name": "Home Assistant",
+                    "app_version": "1.5.1 (97)",
+                    "device_id": "063effd2c94fb1e8",
+                    "device_name": "SAMSUNG_M30S",
+                    "manufacturer": "samsung",
+                    "model": "SM-M307F",
+                    "os_name": "Android",
+                    "os_version": "28",
+                    "supports_encryption": false,
+                    "user_id": "9407686109d547119ef2ae3f02b32790",
+                    "webhook_id": "cb8c62557aae563093125e996924dee73526f7d958e2b024410f805cd328b399"
+                },
+                "domain": "mobile_app",
+                "entry_id": "10f69d34bd9544679ee0360ac48e3568",
+                "options": {},
+                "source": "registration",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "SM-M307F",
+                "unique_id": "io.homeassistant.companion.android-063effd2c94fb1e8",
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "server": "Asgard",
+                    "server_config": {
+                        "client_id": "218f715c-c8d9-46e8-b51d-d4c583023471",
+                        "token": "kAmfwWmHic_HoKLWWkzn",
+                        "url": "https://1-2-3-41.7835c56d8d8541269ada0594e4235455.plex.direct:32400",
+                        "verify_ssl": true
+                    },
+                    "server_id": "fd741fbbabe7fef67ab1090f46a4ed65e0868041"
+                },
+                "domain": "plex",
+                "entry_id": "8bd0613699a9479098fc7c6fc4a0991d",
+                "options": {
+                    "media_player": {
+                        "show_all_controls": false,
+                        "use_episode_art": false
+                    }
+                },
+                "source": "discovery",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Asgard",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "cloud_poll",
+                "data": {
+                    "api_key": "zEuEcArywZN5N4eI2QP4WdzFPlNrRSanUopFzxZuVjRCEbD4lA",
+                    "port": 9192,
+                    "url": "http://1.2.3.42",
+                    "verify_ssl": false
+                },
+                "domain": "grocy",
+                "entry_id": "5be4559f8f2a4b89a56b0fe7b72f7bb6",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Grocy",
+                "unique_id": null,
+                "version": 1
+            },
+            {
+                "connection_class": "local_poll",
+                "data": {
+                    "controller": {
+                        "host": "1.2.3.2",
+                        "password": "hakimpalace100",
+                        "port": 8443,
+                        "site": "default",
+                        "username": "fanul",
+                        "verify_ssl": false
+                    }
+                },
+                "domain": "unifi",
+                "entry_id": "12d62a1e8a6a4e8ca99e648c17c3931d",
+                "options": {},
+                "source": "user",
+                "system_options": {
+                    "disable_new_entities": false
+                },
+                "title": "Default",
+                "unique_id": null,
                 "version": 1
             }
         ]

@@ -1,0 +1,7 @@
+
+# Show devices on WLAN Network through the Unifi Controller
+  - platform: unifi
+# Only required if the controller is not running on the same device
+    host: 1.2.3.2
+    username: !secret unifi_user
+    password: !secret unifi_password

@@ -1,38 +1,55 @@
-homeassistant:
-  # Name of the location where Home Assistant is running
-  name: Home
-  # Location required to calculate the time the sun rises and sets
-  latitude: -6.1741
-  longitude: 106.8296
-  # Impacts weather/sunrise data (altitude above sea level in meters)
-  elevation: 0
-  # metric for Metric, imperial for Imperial
-  unit_system: metric
-  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-  time_zone: Asia/Jakarta
-  # Customization file
-  customize: !include customize.yaml
+homeassistant: !include homeassistant.yaml
 
-  #auth-TOKEN-X
-  auth_providers:
-    - type: homeassistant
+system_health:
+
+http: !include http.yaml
+    
 #my_config
 config:
 
-#logger:
-#  logs:
-#      custom_components.hacs: debug
-
-#hacs:
-#  token: f707f8c80cc54c93779c540a6d1c7614baf8ff95
-
 mobile_app:
 
-# websocket api
-websocket_api:
+# Discover some devices automatically
+discovery:
 
-#device tracker
-device_tracker:
+# ==== # ==== # ~ BELOW IS A PARTIAL CONFIGURATION OF EACH ENTITY ~ # ==== # ==== #
+xiaomi_aqara: !include xiaomi_aqara.yaml
+remote: !include remote.yaml
+media_player: !include media_player.yaml
+#google_assistant: !include google_assistant.yaml
+#googlehome: !include googlehome.yaml
+#panel_iframe: !include panel_iframe.yaml
+group: !include groups.yaml
+automation: !include_dir_merge_list automations
+#automation: !include automations.yaml
+notify: !include notify.yaml
+#yeelight: !include yeelight.yaml
+history: !include history.yaml
+recorder: !include recorder.yaml
+influxdb: !include influxdb.yaml
+#camera: !include camera.yaml
+hacs: !include hacs.yaml
+google: !include google.yaml #google calendar
+unifi: !include unifi.yaml
+#person: !include person.yaml
+device_tracker: !include device_tracker.yaml
+zone: !include zone.yaml
+#switch: !include switch.yaml
+script: !include scripts.yaml
+sensor: !include sensor.yaml
+#grocy: !include grocy.yaml
+logger: !include logger.yaml
+#smartir: !include smartir.yaml
+#rest_command: !include rest_command.yaml
+
+# ==== # ==== # ~ BELOW IS A LAZY COMPONENT MATERIAL ~ # ==== # ==== #
+#- service: notify.mobile_app_mi_phone
+#  data:
+#    message: Anne has arrived home
+
+#google_keep:
+#  username: "fanul.doang@gmail.com"
+#  password: "vdrvpnfttffccozd
 
 fastdotcom:
   scan_interval:
@@ -43,9 +60,6 @@ input_boolean:
     name: guarding home
     initial: off
     icon: mdi:security
-
-# Configure a default setup of Home Assistant (frontend, api, etc)
-#default_config:
 
 input_datetime:
   both_date_and_time:
@@ -58,57 +72,5 @@ tts:
   - platform: google_translate
     service_name: google_say
 
-# Discover some devices automatically
-discovery:
-
-#rest command
-rest_command:
-  sonoff_slampher_stat:
-    url: 'http://192.168.1.17/cm?user=admin&password=hakimpalace100&cmnd=power'
-    
-#- service: notify.mobile_app_mi_phone
-#  data:
-#    message: Anne has arrived home
-
-#google_keep:
-#  username: "fanul.doang@gmail.com"
-#  password: "vdrvpnfttffccozd
-
-# ==== # ==== # ~ BELOW IS A PARTIAL CONFIGURATION OF EACH ENTITY ~ # ==== # ==== #
-xiaomi_aqara: !include xiaomi_aqara.yaml
-remote: !include remote.yaml
-media_player: !include media_player.yaml
-google_assistant: !include google_assistant.yaml
-#googlehome: !include googlehome.yaml
-panel_iframe: !include panel_iframe.yaml
-group: !include groups.yaml
-automation: !include_dir_merge_list automations
-notify: !include notify.yaml
-yeelight: !include yeelight.yaml
-
-script: !include scripts.yaml
-
-sensor: !include sensor.yaml
 
 
-#grocy:
-#  url: "http://192.168.1.33:9192/api/"
-#  api_key: "TCHW5GH43z5qUH8FQFKV5PPqsfLzNiXIw7wFXsWURZDqJbLNXC"
-#  sensor:
-#    - enabled: true
-
-camera:
-  - platform: generic
-    name: Camera
-    still_image_url: https://192.168.1.178/cgi-bin/currentpic.cgi
-    stream_source: rtsp://192.168.1.178:8554/unicast
-    verify_ssl: false
-    username: root
-    password: ismart12
-    authentication: basic
-    
-yeelight:
-  devices:
-    192.168.1.14:
-      name: yeelight strip
-      model: strip1

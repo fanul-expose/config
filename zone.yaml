@@ -1,0 +1,18 @@
+
+  - name: Home
+    latitude: -6.425655
+    longitude: 106.826172
+    radius: 100
+    icon: mdi:account-multiple
+    
+  - name: Work
+    latitude: -6.226122
+    longitude: 106.818091
+    radius: 200
+    icon: mdi:briefcase
+    
+  - name: Stasiun Depok Lama
+    latitude: -6.404718
+    longitude: 106.817261
+    radius: 100
+    icon: mdi:train

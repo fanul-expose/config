@@ -1,0 +1,35 @@
+{
+    "data": {
+        "thomasloven/hass-browser_mod": {
+            "version_type": "version",
+            "version_installed": "15",
+            "version_available": "15"
+        },
+        "klejejs/ha_keep_notes_sensor": {
+            "version_type": "commit",
+            "version_installed": "c233f78",
+            "version_available": "c233f78"
+        },
+        "klejejs/lovelace-keep-notes-card": {
+            "version_type": "commit",
+            "version_installed": "ede7a4c",
+            "version_available": "ede7a4c"
+        },
+        "thomasloven/lovelace-card-tools": {
+            "version_type": "version",
+            "version_installed": "2.3",
+            "version_available": "2.3"
+        },
+        "gadgetchnnel/lovelace-home-feed-card": {
+            "version_type": "version",
+            "version_installed": "0.3.3",
+            "version_available": "0.3.3"
+        },
+        "ljmerza/calendar-card": {
+            "version_type": "version",
+            "version_installed": "3.101.1",
+            "version_available": "3.101.1"
+        }
+    },
+    "schema": "5"
+}

@@ -1,0 +1,21 @@
+
+remote:
+  - platform: xiaomi_miio
+    host: !secret xiaomi_ir_remote1_ip
+    token: !secret xiaomi_ir_remote1_token
+    
+#media_player:
+#  - platform: smartir
+#    name: Cooca TV
+#    unique_id: cooca_tv
+#    device_code: 2000
+#    controller_data: remote.universal
+#    power_sensor: binary_sensor.tv_power
+    
+fan:
+  - platform: smartir
+    name: Kipas TV
+    unique_id: kipas_tv
+    device_code: 1020
+    controller_data: remote.universal
+    power_sensor: binary_sensor.fan_power

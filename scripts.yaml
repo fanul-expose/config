@@ -47,5 +47,347 @@ volume_up_tv:
         command:
           - raw:Z6VHABUCAABMAgAAqwYAANQIAACUEQAAJCMAAKScAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFEBAgEBAQEBAgIBAgICAgIBAgEBAQEBAQIBAgICAgICBgNQA=
 
+input_change_tv:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VLABUCAABMAgAAqwYAAOEIAACWEQAAJiMAAKScAABkdwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFEBAgEBAQEBAgIBAgICAgICAgECAQEBAQEBAgECAgICBgNXA1AA=
 
+ok_tv:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VHADACAACRBgAA0ggAAJIRAAAsIwAApJwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAQAAAAAAAQEAAQEBAQEAAAEAAAABAAEBAAEBAQABBQJAA=
+
+cooca_tv_on_off:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJACYCAABfAgAA4gYAAMoRAAAnEgAAAK8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDECAgIBAQEBAQICAgEBAQEBAQICAQEBAQICAQECAgICBQRCAA
+
+cooca_tv_mute:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJACcCAABfAgAA4gYAAMsRAAAmEgAAAK8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDECAgIBAQEBAQICAgEBAQECAQICAQEBAQECAQECAgICBQRCAA
+
+cooca_tv_1:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJACgCAABdAgAA4QYAANARAAAEEgAAJhIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAQEBAQEBAQECAgICAgICBgVCAA
+
+cooca_tv_2:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABMCAABzAgAA9gYAALcRAAD/EQAANRIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAgEBAQEBAQIBAgICAgICBgVCAA
+
+cooca_tv_3:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJACcCAABfAgAA4gYAAMoRAAAmEgAAAK8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDECAgIBAQEBAQICAgEBAQECAgEBAQEBAQEBAgICAgICBQRCAA
+
+cooca_tv_4:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJACQCAABhAgAA5gYAAMoRAAAAEgAAKxIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAQIBAQEBAQICAQICAgICBgVCAA
+
+cooca_tv_5:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJACcCAABeAgAA4gYAAMwRAAAAEgAAKhIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAQIBAQEBAQECAQICAgICBgVCAA
+
+cooca_tv_6:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJACcCAABfAgAA4gYAAMwRAAD+EQAAKxIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAgIBAQEBAQIBAQICAgICBgVCAA
+
+cooca_tv_7:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABICAABzAgAA9wYAALcRAADrEQAAQBIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAgIBAQEBAQEBAQICAgICBgVCAA
+
+cooca_tv_8:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABICAAByAgAA9wYAALgRAADqEQAAQBIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAQECAQEBAQICAgECAgICBgVCAA
+
+cooca_tv_9:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJACwCAABYAgAA3AYAANIRAAAEEgAAJRIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAQECAQEBAQECAgECAgICBgVCAA
+
+cooca_tv_0:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJACwCAABYAgAA3gYAAN8RAAAyEgAAZK8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDECAgIBAQEBAQICAgEBAQEBAQEBAQEBAQICAgICAgICBQQyAA
+
+cooca_tv_info:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABICAABzAgAA9wYAALcRAADqEQAAQBIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAgIBAgEBAQIBAQIBAgICBgVCAA
+
+cooca_tv_source:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJAC0CAABYAgAA3AYAAN8RAAAyEgAAZK8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDECAgIBAQEBAQICAgEBAQECAgICAQEBAQEBAQECAgICBQQyAA
+
+cooca_tv_home:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABICAABzAgAA9wYAALYRAADsEQAAPxIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAQECAgICAQICAgEBAQECBgVCAA
+
+cooca_tv_menu:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABUCAAByAgAA9AYAALgRAAAFEgAAMhIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAQEBAgEBAQECAgIBAgICBgVCAA
+
+cooca_tv_back:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABICAABzAgAA9wYAALYRAAAFEgAANBIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAQIBAQICAQICAQICAQECBgVCAA
+
+cooca_tv_exit:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABMCAABzAgAA9gYAALURAAAFEgAAJRIAAEISAABkrwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABjECAgIBAQEBAQICAgEBAQECAQIBAgIBAgECAQIBAQIBBwVCAA
+
+cooca_tv_up:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJAC4CAABXAgAA3AYAANIRAAAGEgAAJRIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAgEBAQECAQIBAgICAgECBgVCAA
+
+cooca_tv_right:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJAC4CAABYAgAA3AYAANMRAAAGEgAAJBIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAQIBAQECAQECAQICAgECBgVCAA
+
+cooca_tv_down:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJAC4CAABXAgAA3AYAANIRAAAHEgAAJBIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAgEBAQECAQEBAgICAgECBgVCAA
+
+cooca_tv_left:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJAC0CAABYAgAA3AYAANERAAAGEgAAJRIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAQIBAQECAQICAQICAgECBgVCAA
+
+cooca_tv_youtube:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJACwCAABZAgAA3QYAANARAAAkEgAAAK8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDECAgIBAQEBAQICAgEBAQEBAQEBAQICAgICAgICAQEBBQRCAA
+
+cooca_tv_vol_plus:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABICAABzAgAA+AYAALYRAAAHEgAAPxIAAACvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAQIBAgEBAQICAQIBAgICBgVCAA
+
+cooca_tv_vol_minus:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABICAABzAgAA9wYAALYRAADsEQAAQBIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAQIBAgEBAQECAQIBAgICBgVCAA
+
+cooca_tv_text:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABMCAABxAgAA9gYAALcRAADsEQAAPxIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAgECAQIBAgEBAgECAQIBBgVCAA
+
+cooca_tv_program_up:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABMCAAByAgAA9wYAALYRAAAGEgAAQRIAAACvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAgEBAgEBAQIBAgIBAgICBgVCAA
+
+cooca_tv_program_down:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJAC0CAABYAgAA3AYAANERAAAGEgAAJRIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAgEBAgEBAQEBAgIBAgICBgVCAA
+
+cooca_tv_guide:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJAC0CAABXAgAA3AYAANMRAAAjEgAAAK8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDECAgIBAQEBAQICAgEBAQEBAQIBAgIBAgICAQIBAQIBBQRCAA
+
+cooca_tv_play:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJAC4CAABXAgAA3AYAANIRAAAGEgAAJRIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAQEBAQICAQECAgICAQECBgVCAA
+
+cooca_tv_pause:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJAC4CAABXAgAA3AYAANIRAAAkEgAAAK8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDECAgIBAQEBAQICAgEBAQECAgEBAQICAQEBAgICAQECBQRCAA
+
+cooca_tv_forward:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABMCAAByAgAA9gYAANARAADsEQAAMxIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAQEBAQECAQECAgICAgECBgVCAA
+
+cooca_tv_backward:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABECAABzAgAA+AYAALYRAADqEQAAQBIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAQEBAQECAQICAgICAgECBgVCAA
+
+cooca_tv_subtitle:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABICAABzAgAA9wYAALYRAAAHEgAAQRIAAACvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAgEBAgIBAgIBAgIBAQIBBgVCAA
+
+cooca_tv_ad:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJAC0CAABYAgAA3AYAANERAAAkEgAAAK8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABDECAgIBAQEBAQICAgEBAQECAgIBAQICAQEBAQICAQECBQRCAA
+
+cooca_tv_r:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABICAABzAgAA+AYAALYRAADqEQAAQRIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAQEBAQIBAgICAgICAQIBBgVCAA
+
+cooca_tv_g:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABQCAABzAgAA9QYAALYRAAAFEgAAJhIAAEESAABkrwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABjECAgIBAQEBAQICAgEBAQECAQEBAQIBAgECAgICAQIBBwVCAA
+
+cooca_tv_y:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJACwCAABZAgAA3QYAANERAAAFEgAAJRIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAgEBAQIBAgIBAgICAQIBBgVCAA
+
+cooca_tv_b:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJABECAABzAgAA+AYAALYRAADtEQAAQBIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAgEBAQIBAgEBAgICAQIBBgVCAA
+
+cooca_tv_ok:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJAC4CAABXAgAA3AYAANMRAAAHEgAAJBIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQEBAgIBAQECAQIBAQICAgECBgVCAA
+
+cooca_tv_google_assistant:
+  sequence:
+    - service: remote.send_command
+      entity_id: 'remote.remote_universal'
+      data:
+        command:
+          - raw:Z6VJACwCAABZAgAA3QYAANERAAAFEgAAJhIAAGSvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABTECAgIBAQEBAQICAgEBAQECAQEBAQEBAgECAgICAgIBBgVCA
 

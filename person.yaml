@@ -1,0 +1,10 @@
+
+  - name: fanul
+    id: 10fce46ca9f846dab207792898378c9b
+    device_trackers:
+      - device_tracker.mi_max_2
+      
+  - name: dhara
+    id: 9407686109d547119ef2ae3f02b32790
+    device_trackers:
+      - device_tracker.sm_m307f

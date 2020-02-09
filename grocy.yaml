@@ -1,0 +1,7 @@
+
+  url: "https://1.2.3.42:9192/api/"
+  api_key: "zEuEcArywZN5N4eI2QP4WdzFPlNrRSanUopFzxZuVjRCEbD4lA"
+  sensor:
+    - enabled: true
+  binary_sensor:
+    - enabled : true

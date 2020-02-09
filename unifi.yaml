@@ -1,0 +1,7 @@
+
+  controllers:
+    - host: 1.2.3.2
+      site: oasis
+      detection_time: 500
+      ssid_filter:
+        - '?'

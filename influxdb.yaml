@@ -1,0 +1,6 @@
+  
+  host: 1.2.3.41
+  port: 8086
+  database: homeassistant_influx
+  username: !secret influx_homeassistant_user
+  password: !secret influx_homeassistant_pass

@@ -4,7 +4,9 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
+        "node-red-contrib-batcher": "~1.0.0",
         "node-red-contrib-google-home-notifier-offline": "0.0.5",
-        "node-red-contrib-google-home-notify": "0.0.7"
+        "node-red-contrib-google-home-notify": "0.0.7",
+        "node-red-contrib-simpletime": "~2.7.0"
     }
 }

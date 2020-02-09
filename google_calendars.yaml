@@ -1,0 +1,42 @@
+
+- cal_id: bpjsketenagakerjaan.go.id_6ut430rs54enu4861111pfs5u0@group.calendar.google.com
+  entities:
+  - device_id: goes_s2_gundar
+    ignore_availability: true
+    name: GOES S2 GUNDAR
+    track: true
+
+- cal_id: dhara.doang@gmail.com
+  entities:
+  - device_id: dhara_doang_gmail_com
+    ignore_availability: true
+    name: dhara.doang@gmail.com
+    track: true
+
+- cal_id: fanul.doang@gmail.com
+  entities:
+  - device_id: fanul_doang_gmail_com
+    ignore_availability: true
+    name: fanul.doang@gmail.com
+    track: true
+
+- cal_id: dgup77bs3n0ebtdfvr5rkc986kreepo5@import.calendar.google.com
+  entities:
+  - device_id: prayer_times_for_jakarta_jakarta_indonesia
+    ignore_availability: true
+    name: Prayer Times for Jakarta Jakarta Indonesia
+    track: true
+
+- cal_id: addressbook#contacts@group.v.calendar.google.com
+  entities:
+  - device_id: contacts
+    ignore_availability: true
+    name: Contacts
+    track: true
+
+- cal_id: en.indonesian#holiday@group.v.calendar.google.com
+  entities:
+  - device_id: holidays_in_indonesia
+    ignore_availability: true
+    name: Holidays in Indonesia
+    track: true

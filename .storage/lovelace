@@ -5,22 +5,129 @@
                 {
                     "type": "module",
                     "url": "/local/custom_ui/dark-sky-weather-card.js?v=0.10.2"
+                },
+                {
+                    "type": "module",
+                    "url": "/local/google_keep_card/google-keep-card.js"
+                },
+                {
+                    "type": "js",
+                    "url": "/community_plugin/lovelace-card-tools/card-tools.js"
+                },
+                {
+                    "type": "js",
+                    "url": "/community_plugin/lovelace-home-feed-card/lovelace-home-feed-card.js"
+                },
+                {
+                    "type": "js",
+                    "url": "/community_plugin/calendar-card/calendar-card.js"
+                },
+                {
+                    "type": "module",
+                    "url": "/community_plugin/ha-card-waze-travel-time/ha-card-waze-travel-time.js"
+                },
+                {
+                    "type": "js",
+                    "url": "/community_plugin/content-card-remote-control/content-card-remote-control.js"
+                },
+                {
+                    "type": "module",
+                    "url": "/community_plugin/button-card/button-card.js"
                 }
             ],
             "title": "Home",
             "views": [
                 {
                     "badges": [
-                        "device_tracker.mi_phone",
-                        "sensor.illumination_7c49eb1b9c00",
                         "sensor.fast_com_download"
                     ],
                     "cards": [
                         {
                             "entities": [
+                                {
+                                    "entity": "switch.wall_switch_ln_right_158d000343e468"
+                                },
+                                {
+                                    "entity": "switch.wall_switch_ln_right_158d000343e336"
+                                },
+                                {
+                                    "entity": "switch.wall_switch_ln_right_158d00033fca56"
+                                },
+                                {
+                                    "entity": "switch.wall_switch_ln_right_158d00033fc28e"
+                                },
+                                {
+                                    "entity": "switch.wall_switch_ln_right_158d00033a6654"
+                                },
+                                {
+                                    "entity": "switch.wall_switch_ln_left_158d000349343f"
+                                },
+                                {
+                                    "entity": "switch.wall_switch_ln_left_158d000343e468"
+                                },
+                                {
+                                    "entity": "switch.wall_switch_ln_left_158d000343e336"
+                                },
+                                {
+                                    "entity": "switch.wall_switch_ln_left_158d00033fca56"
+                                },
+                                {
+                                    "entity": "switch.wall_switch_ln_left_158d00033fc28e"
+                                },
+                                {
+                                    "entity": "switch.wall_switch_ln_left_158d00033a6654"
+                                },
+                                {
+                                    "entity": "switch.wall_switch_ln_158d0002c2078b"
+                                },
+                                {
+                                    "entity": "switch.wall_switch_ln_158d0002a52ceb"
+                                }
+                            ],
+                            "state_color": true,
+                            "title": "Lampu",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
+                                {
+                                    "entity": "script.volume_down_tv"
+                                },
+                                {
+                                    "entity": "script.speed_kipas"
+                                },
+                                {
+                                    "entity": "script.volume_up_tv"
+                                },
+                                {
+                                    "entity": "script.swing_kipas"
+                                },
+                                {
+                                    "entity": "script.on_off_kipas"
+                                },
+                                {
+                                    "entity": "script.on_off_tv"
+                                },
+                                {
+                                    "entity": "script.input_change_tv"
+                                },
+                                {
+                                    "entity": "script.ok_tv"
+                                },
+                                {
+                                    "entity": "script.cooca_tv_on_off"
+                                }
+                            ],
+                            "show_header_toggle": false,
+                            "title": "Script",
+                            "type": "entities"
+                        },
+                        {
+                            "entities": [
                                 "input_boolean.guard_home"
                             ],
                             "show_header_toggle": false,
+                            "state_color": true,
                             "title": "Home Guard",
                             "type": "entities"
                         },
@@ -33,39 +140,543 @@
                                     "entity": "light.yeelight_strip"
                                 }
                             ],
+                            "state_color": true,
                             "title": "Light",
-                            "type": "entities"
-                        },
-                        {
-                            "entity": "media_player.kodi",
-                            "type": "media-control"
-                        },
-                        {
-                            "entities": [
-                                "script.volume_down_tv",
-                                "script.speed_kipas",
-                                "script.volume_up_tv",
-                                "script.swing_kipas",
-                                "script.on_off_kipas",
-                                "script.on_off_tv"
-                            ],
-                            "show_header_toggle": false,
-                            "title": "Script",
                             "type": "entities"
                         },
                         {
                             "entities": [
                                 {
-                                    "entity": "persistent_notification.config_warning"
+                                    "entity": "switch.wall_switch_ln_right_158d000349343f"
                                 }
                             ],
-                            "show_header_toggle": false,
-                            "title": "Persistent Notification",
+                            "state_color": true,
+                            "title": "Alat Lain",
                             "type": "entities"
                         }
                     ],
                     "path": "default_view",
                     "title": "Panel"
+                },
+                {
+                    "badges": [],
+                    "cards": [
+                        {
+                            "cards": [
+                                {
+                                    "color": "rgb(44, 109, 214)",
+                                    "color_type": "label-card",
+                                    "name": "Remote",
+                                    "type": "custom:button-card"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:power",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_on_off"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color_type": "blank-card",
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:volume-off",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_mute"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:numeric-1-box-outline",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_1"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:numeric-2-box-outline",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_2"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:numeric-3-box-outline",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_3"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:numeric-4-box-outline",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_4"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:numeric-5-box-outline",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_5"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:numeric-6-box-outline",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_6"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:numeric-6-box-outline",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_6"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:numeric-7-box-outline",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_7"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:numeric-8-box-outline",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_8"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "info",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_info"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:numeric-0-box-outline",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_0"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "source",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_source"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "home",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_home"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:transfer-up",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_up"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "menu",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_menu"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:transfer-left",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_left"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:adjust",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_ok"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:transfer-right",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_right"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "back",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_back"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:transfer-down",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_down"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "exit",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_exit"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "youtube",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_youtube"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:plus",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_vol_plus"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "text",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_text"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:chevron-up",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_program_up"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "vol",
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:google-assistant",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_google_assistant"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "prog",
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:minus",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_vol_minus"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "guide",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_guide"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:chevron-down",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_program_down"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:rewind",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_backward"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:play",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_play"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:fast-forward",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_forward"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "subtitle",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_subtitle"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "card",
+                                            "icon": "mdi:pause",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_pause"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "AD",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_ad"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                },
+                                {
+                                    "cards": [
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "R",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_r"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "G",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_g"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "y",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_y"
+                                            },
+                                            "type": "custom:button-card"
+                                        },
+                                        {
+                                            "color": "rgb(66, 134, 244)",
+                                            "color_type": "label-card",
+                                            "name": "b",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "script.cooca_tv_b"
+                                            },
+                                            "type": "custom:button-card"
+                                        }
+                                    ],
+                                    "type": "horizontal-stack"
+                                }
+                            ],
+                            "type": "vertical-stack"
+                        }
+                    ],
+                    "panel": true,
+                    "path": "remote-tv",
+                    "title": "Remote  Cooca TV"
                 },
                 {
                     "badges": [],
@@ -122,6 +733,72 @@
                             "tooltip_width": 100,
                             "tooltips": true,
                             "type": "custom:dark-sky-weather-card"
+                        },
+                        {
+                            "dateBottomFormat": "ddd",
+                            "dateTopFormat": "DD",
+                            "endText": "End",
+                            "entities": [
+                                {
+                                    "entity": "calendar.fanul_doang_gmail_com",
+                                    "name": "fanul.doang@gmail.com"
+                                },
+                                {
+                                    "entity": "calendar.goes_s2_gundar",
+                                    "name": "GOES S2 GUNDAR"
+                                },
+                                {
+                                    "entity": "calendar.dhara_doang_gmail_com",
+                                    "name": "dhara.doang@gmail.com"
+                                },
+                                {
+                                    "entity": "calendar.prayer_times_for_jakarta_jakarta_indonesia",
+                                    "name": "Prayer Times for Jakarta Jakarta Indonesia"
+                                },
+                                {
+                                    "entity": "calendar.holidays_in_indonesia",
+                                    "name": "Holidays in Indonesia"
+                                }
+                            ],
+                            "eventsLimit": "99",
+                            "fullDayEventText": "All day",
+                            "hideHeader": false,
+                            "hidePastEvents": false,
+                            "hideTime": false,
+                            "highlightToday": true,
+                            "ignoreEventsByLocationExpression": "",
+                            "ignoreEventsExpression": "",
+                            "maxHeight": false,
+                            "numberOfDays": "7",
+                            "progressBar": true,
+                            "showEventOrigin": false,
+                            "showLocation": false,
+                            "showLocationIcon": true,
+                            "showMultiDay": false,
+                            "startText": "Start",
+                            "timeFormat": "HH:mm",
+                            "title": "My Calendar",
+                            "type": "custom:calendar-card"
+                        },
+                        {
+                            "dark_mode": false,
+                            "entities": [
+                                {
+                                    "entity": "person.fanul"
+                                },
+                                {
+                                    "entity": "person.dhara"
+                                }
+                            ],
+                            "title": "Person MAp",
+                            "type": "map"
+                        },
+                        {
+                            "entities": [
+                                "sensor.mimax2_miphone_rx",
+                                "sensor.mimax2_miphone_tx"
+                            ],
+                            "type": "entities"
                         }
                     ],
                     "title": "Info"

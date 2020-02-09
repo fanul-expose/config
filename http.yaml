@@ -1,0 +1,6 @@
+
+# api_password: secretpassword
+  base_url: https://fanul-expose.duckdns.org
+  server_port: 8123
+  ssl_certificate: /ssl/fullchain.pem
+  ssl_key: /ssl/privkey.pem

@@ -3,9 +3,14 @@
     ide:
         title: IDE
         icon: mdi:code-braces
-        url: http://192.168.1.33:8321
+        url: https://fanul-expose.duckdns.org:8321
 
     tasmoadmin:
         title: TasmoAdmin
         icon: mdi:lightbulb-on
-        url: http://192.168.1.33:9541
+        url: https://fanul-expose.duckdns.org:9541
+        
+    grafana:
+        title: Grafana
+        icon: mdi:alarm-light
+        url: https://fanul-expose.duckdns.org:3000

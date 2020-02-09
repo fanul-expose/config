@@ -4,46 +4,542 @@
             {
                 "area_id": null,
                 "config_entries": [
-                    "a9dc126d70724804abd038359766842a"
+                    "57973bc1627d43e0aee3615136070ef9"
                 ],
                 "connections": [],
-                "hub_device_id": null,
-                "id": "6d435f6069b440048f5f1038412c09ac",
+                "id": "15f0173d4b3e429e9d5225d3409ebddb",
                 "identifiers": [
                     [
-                        "webhook_id",
-                        "e2c2500efe956920bb9a6e0a69d1dd2178982ea001113e75e63a5fea1f3c2e73"
-                    ],
-                    [
-                        "device_id",
-                        "a6570b602144428aaffd97d0db92f333"
+                        "mobile_app",
+                        "24cc095092f03b85"
                     ]
                 ],
                 "manufacturer": "Xiaomi",
-                "model": "oxygen",
-                "name": "Mi_Phone",
+                "model": "MI MAX 2",
+                "name": "MI MAX 2",
                 "name_by_user": null,
-                "sw_version": "7.1.1"
+                "sw_version": "25",
+                "via_device_id": null
             },
             {
                 "area_id": null,
                 "config_entries": [
-                    "a9dc126d70724804abd038359766842a"
+                    "10f69d34bd9544679ee0360ac48e3568"
                 ],
                 "connections": [],
-                "hub_device_id": null,
-                "id": "447d4dcd92af4798bd3362922d6b9df9",
+                "id": "a843e92755744e919e5ccbed7456ad66",
                 "identifiers": [
                     [
                         "mobile_app",
-                        "a6570b602144428aaffd97d0db92f333"
+                        "063effd2c94fb1e8"
                     ]
                 ],
-                "manufacturer": "Xiaomi",
-                "model": "oxygen",
+                "manufacturer": "samsung",
+                "model": "SM-M307F",
+                "name": "SAMSUNG_M30S",
+                "name_by_user": null,
+                "sw_version": "28",
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "5be4559f8f2a4b89a56b0fe7b72f7bb6"
+                ],
+                "connections": [],
+                "id": "e0b5e4e75d6b4352804724c7a4483795",
+                "identifiers": [
+                    [
+                        "grocy",
+                        "5f58f70f56d2804dcaa63a25abc575bf-expired_products"
+                    ]
+                ],
+                "manufacturer": "Grocy",
+                "model": null,
+                "name": "grocy.expired_products",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "5be4559f8f2a4b89a56b0fe7b72f7bb6"
+                ],
+                "connections": [],
+                "id": "cf01d86bfe60464f998751e656ce8c59",
+                "identifiers": [
+                    [
+                        "grocy",
+                        "5f58f70f56d2804dcaa63a25abc575bf-stock"
+                    ]
+                ],
+                "manufacturer": "Grocy",
+                "model": null,
+                "name": "grocy.stock",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "5be4559f8f2a4b89a56b0fe7b72f7bb6"
+                ],
+                "connections": [],
+                "id": "8b8125d5bb5f42d692b3a3addbfbda7c",
+                "identifiers": [
+                    [
+                        "grocy",
+                        "5f58f70f56d2804dcaa63a25abc575bf-missing_products"
+                    ]
+                ],
+                "manufacturer": "Grocy",
+                "model": null,
+                "name": "grocy.missing_products",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "5be4559f8f2a4b89a56b0fe7b72f7bb6"
+                ],
+                "connections": [],
+                "id": "50a17b993dc645e09a469b9a6cc8e377",
+                "identifiers": [
+                    [
+                        "grocy",
+                        "5f58f70f56d2804dcaa63a25abc575bf-chores"
+                    ]
+                ],
+                "manufacturer": "Grocy",
+                "model": null,
+                "name": "grocy.chores",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "5be4559f8f2a4b89a56b0fe7b72f7bb6"
+                ],
+                "connections": [],
+                "id": "3c2c4a7c0a874c89b4e33400901abc25",
+                "identifiers": [
+                    [
+                        "grocy",
+                        "5f58f70f56d2804dcaa63a25abc575bf-expiring_products"
+                    ]
+                ],
+                "manufacturer": "Grocy",
+                "model": null,
+                "name": "grocy.expiring_products",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "5be4559f8f2a4b89a56b0fe7b72f7bb6"
+                ],
+                "connections": [],
+                "id": "ce8ca5da4a4b4326a988fe46d47aada1",
+                "identifiers": [
+                    [
+                        "grocy",
+                        "5f58f70f56d2804dcaa63a25abc575bf-shopping_list"
+                    ]
+                ],
+                "manufacturer": "Grocy",
+                "model": null,
+                "name": "grocy.shopping_list",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b4:fb:e4:ce:21:cb"
+                    ]
+                ],
+                "id": "914f29e19b8f4cfe9d38e22248138310",
+                "identifiers": [],
+                "manufacturer": "Ubiquiti Networks",
+                "model": "UniFi Controller",
+                "name": "UniFi Controller",
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "f4:f5:db:20:d4:76"
+                    ]
+                ],
+                "id": "3d21db37f0a14bcd81149f4a139db486",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
                 "name": null,
                 "name_by_user": null,
-                "sw_version": "7.1.1"
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "0c:98:38:2e:b2:97"
+                    ]
+                ],
+                "id": "bce3b0c2b5ca4e969e930f73af9c72d1",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "ac:c1:ee:86:ec:65"
+                    ]
+                ],
+                "id": "ca509b88b52a4f3fa964f7f8563afdfa",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "d4:c1:c8:9d:36:0b"
+                    ]
+                ],
+                "id": "acbf8e860113479082bb4559cc507b67",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "7c:49:eb:1b:9c:00"
+                    ]
+                ],
+                "id": "a4804a36e1244abb95a08da33277b086",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "00:90:a9:ea:64:dc"
+                    ]
+                ],
+                "id": "332188d6193547c8a470a753050f4dfa",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "50:ec:50:8d:9f:32"
+                    ]
+                ],
+                "id": "f6deb360f237407f8874bc2bb8fa2995",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "a4:d9:90:da:c5:11"
+                    ]
+                ],
+                "id": "2bce62386be94236b992ec4c9518eca7",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b8:27:eb:33:3c:9e"
+                    ]
+                ],
+                "id": "ad83bf1acd3242509148a7721ff10012",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "18:65:90:d1:c6:57"
+                    ]
+                ],
+                "id": "1b910cf656754b39b889e5ae44bb18e5",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "b8:27:eb:cc:c6:ea"
+                    ]
+                ],
+                "id": "ce1e2e56cc6b4fe9874f1683f1a34b22",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "48:13:7e:42:fd:e1"
+                    ]
+                ],
+                "id": "e985d87eb5814c4fa8f1cfbcf0f2f4e2",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "20:47:da:04:b4:3f"
+                    ]
+                ],
+                "id": "c59aba37d3fc4278a8c3e561f0a7ce49",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "70:81:eb:30:4c:5c"
+                    ]
+                ],
+                "id": "0abd590d753c4090a6fa2cebd4542638",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "10:77:17:ce:19:11"
+                    ]
+                ],
+                "id": "a01a8badca5044458458b72f992febea",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "1c:4d:70:d3:ac:de"
+                    ]
+                ],
+                "id": "e347a58d98844fdabbeefd37f0eadec8",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "7c:49:eb:25:4b:b0"
+                    ]
+                ],
+                "id": "fb65fd3f4bdc4179ac7663d30ae94ccf",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
+            },
+            {
+                "area_id": null,
+                "config_entries": [
+                    "12d62a1e8a6a4e8ca99e648c17c3931d"
+                ],
+                "connections": [
+                    [
+                        "mac",
+                        "ac:c1:ee:5c:f3:63"
+                    ]
+                ],
+                "id": "cf6e5e5a9175472ebca8d4944f6bd7f2",
+                "identifiers": [],
+                "manufacturer": null,
+                "model": null,
+                "name": null,
+                "name_by_user": null,
+                "sw_version": null,
+                "via_device_id": null
             }
         ]
     },
